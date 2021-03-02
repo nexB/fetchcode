@@ -327,3 +327,36 @@ def get_rubygems_data_from_purl(purl):
         download_url=download_url,
         **purl.to_dict(),
     )
+
+
+@router.route("pkg:homebrew/.*")
+def get_homebrew_data_from_purl(purl):
+    """
+    Generate `Package` object from the `purl` string of homebrew type
+    """
+    purl = PackageURL.from_string(purl)
+    name = purl.name
+    base_path = "https://formulae.brew.sh/api/formula"
+    api_url = f"{base_path}/{name}.json"
+    response = get_response(api_url)
+    declared_license = response.get("license")
+    homepage_url = response.get("homepage")
+    urls = response.get("urls") or {}
+    stable_url = urls.get("stable") or {}
+    download_url = stable_url.get("url")
+    yield Package(
+        homepage_url=homepage_url,
+        api_url=api_url,
+        declared_license=declared_license,
+        download_url=download_url,
+        **purl.to_dict(),
+    )
+    versions = response.get("versions") or {}
+    version_purl = PackageURL(type=purl.type, name=name, version=versions.get("stable"))
+    yield Package(
+        homepage_url=homepage_url,
+        api_url=api_url,
+        declared_license=declared_license,
+        download_url=download_url,
+        **version_purl.to_dict(),
+    )

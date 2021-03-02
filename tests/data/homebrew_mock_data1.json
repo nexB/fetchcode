@@ -1,0 +1,124 @@
+{
+    "name": "node",
+    "full_name": "node",
+    "oldname": null,
+    "aliases": [
+        "node.js",
+        "node@14",
+        "nodejs",
+        "npm"
+    ],
+    "versioned_formulae": [
+        "node@12",
+        "node@10"
+    ],
+    "desc": "Platform built on V8 to build network applications",
+    "license": "MIT",
+    "homepage": "https://nodejs.org/",
+    "versions": {
+        "stable": "14.13.1",
+        "head": "HEAD",
+        "bottle": true
+    },
+    "urls": {
+        "stable": {
+            "url": "https://nodejs.org/dist/v14.13.1/node-v14.13.1.tar.gz",
+            "tag": null,
+            "revision": null
+        }
+    },
+    "revision": 0,
+    "version_scheme": 0,
+    "bottle": {
+        "stable": {
+            "rebuild": 0,
+            "cellar": ":any",
+            "prefix": "/usr/local",
+            "root_url": "https://homebrew.bintray.com/bottles",
+            "files": {
+                "catalina": {
+                    "url": "https://homebrew.bintray.com/bottles/node-14.13.1.catalina.bottle.tar.gz",
+                    "sha256": "c5574d926c10ecb8a18faa551f6a15c362512134577110c2678d52db3382ba42"
+                },
+                "mojave": {
+                    "url": "https://homebrew.bintray.com/bottles/node-14.13.1.mojave.bottle.tar.gz",
+                    "sha256": "3d42a543356788cb20a3cd91306e9e533c2939b7609c3dc91ffdd405fab1b25f"
+                },
+                "high_sierra": {
+                    "url": "https://homebrew.bintray.com/bottles/node-14.13.1.high_sierra.bottle.tar.gz",
+                    "sha256": "8c9d9dd8a341bd74aec4e8ba1a8abb8ba92e137d771290613676798f0b4a61ba"
+                }
+            }
+        }
+    },
+    "keg_only": false,
+    "bottle_disabled": false,
+    "options": [],
+    "build_dependencies": [
+        "pkg-config",
+        "python@3.8"
+    ],
+    "dependencies": [
+        "icu4c"
+    ],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [],
+    "requirements": [],
+    "conflicts_with": [],
+    "caveats": null,
+    "installed": [],
+    "linked_keg": null,
+    "pinned": false,
+    "outdated": false,
+    "deprecated": false,
+    "disabled": false,
+    "analytics": {
+        "install": {
+            "30d": {
+                "node": 405637,
+                "node --HEAD": 44,
+                "node --with-full-icu": 1,
+                "node --without-npm": 1
+            },
+            "90d": {
+                "node": 1074821,
+                "node --HEAD": 117,
+                "node --without-npm": 3,
+                "Node": 1,
+                "node --with-full-icu": 1
+            },
+            "365d": {
+                "node": 4314220,
+                "node --HEAD": 617,
+                "node --without-npm": 29,
+                "node --without-icu4c": 13,
+                "node --with-openssl@1.1": 6
+            }
+        },
+        "install_on_request": {
+            "30d": {
+                "node": 294250,
+                "node --HEAD": 15
+            },
+            "90d": {
+                "node": 787407,
+                "node --HEAD": 52,
+                "Node": 1
+            },
+            "365d": {
+                "node": 3134446,
+                "node --HEAD": 343,
+                "node --without-icu4c": 13,
+                "node --without-npm": 9,
+                "node --with-openssl@1.1": 6
+            }
+        },
+        "build_error": {
+            "30d": {
+                "node": 0
+            }
+        }
+    },
+    "generated_date": "2020-10-11"
+}
