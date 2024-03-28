@@ -346,7 +346,7 @@ class GitHubSourceTestCase(TestCase):
         result = info("pkg:github/pupnp/pupnp")
 
         self.check_result(expected_file, result)
-    
+
     @mock.patch("fetchcode.utils.get_response")
     @mock.patch("fetchcode.utils.github_response")
     def test_packages_github_source_cpython(
@@ -1038,6 +1038,91 @@ class DirListedTestCase(TestCase):
     def test_packages_ipkg(self):
         expected_file = "tests/data/package/dirlisting/generic/ipkg-expected.json"
         result = info("pkg:generic/ipkg")
+
+        self.check_result(expected_file, result)
+
+    @mock.patch("requests.get")
+    def test_packages_util_linux(self, mock_get):
+        test_data = [
+            "tests/data/package/dirlisting/generic/linux/index.html",
+            "tests/data/package/dirlisting/generic/linux/0.html",
+            "tests/data/package/dirlisting/generic/linux/1.html",
+            "tests/data/package/dirlisting/generic/linux/2.html",
+            "tests/data/package/dirlisting/generic/linux/3.html",
+            "tests/data/package/dirlisting/generic/linux/4.html",
+            "tests/data/package/dirlisting/generic/linux/5.html",
+            "tests/data/package/dirlisting/generic/linux/6.html",
+            "tests/data/package/dirlisting/generic/linux/7.html",
+            "tests/data/package/dirlisting/generic/linux/8.html",
+            "tests/data/package/dirlisting/generic/linux/9.html",
+            "tests/data/package/dirlisting/generic/linux/10.html",
+            "tests/data/package/dirlisting/generic/linux/11.html",
+            "tests/data/package/dirlisting/generic/linux/12.html",
+            "tests/data/package/dirlisting/generic/linux/13.html",
+            "tests/data/package/dirlisting/generic/linux/14.html",
+            "tests/data/package/dirlisting/generic/linux/15.html",
+        ]
+
+        mock_get.side_effect = [
+            type(
+                "Response",
+                (),
+                {
+                    "content": file_content(file).encode(),
+                    "raise_for_status": lambda: None,
+                },
+            )
+            for file in test_data
+        ]
+
+        expected_file = "tests/data/package/dirlisting/generic/linux-expected.json"
+        result = info("pkg:generic/linux")
+
+        self.check_result(expected_file, result)
+
+    @mock.patch("requests.get")
+    def test_packages_mtd_utils(self, mock_get):
+        test_data = [
+            "tests/data/package/dirlisting/generic/mtd-utils/index.html",
+        ]
+
+        mock_get.side_effect = [
+            type(
+                "Response",
+                (),
+                {
+                    "content": file_content(file).encode(),
+                    "raise_for_status": lambda: None,
+                },
+            )
+            for file in test_data
+        ]
+
+        expected_file = "tests/data/package/dirlisting/generic/mtd-utils-expected.json"
+        result = info("pkg:generic/mtd-utils")
+
+        self.check_result(expected_file, result)
+
+    @mock.patch("requests.get")
+    def test_packages_barebox(self, mock_get):
+        test_data = [
+            "tests/data/package/dirlisting/generic/barebox/index.html",
+        ]
+
+        mock_get.side_effect = [
+            type(
+                "Response",
+                (),
+                {
+                    "content": file_content(file).encode(),
+                    "raise_for_status": lambda: None,
+                },
+            )
+            for file in test_data
+        ]
+
+        expected_file = "tests/data/package/dirlisting/generic/barebox-expected.json"
+        result = info("pkg:generic/barebox")
 
         self.check_result(expected_file, result)
 

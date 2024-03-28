@@ -127,7 +127,7 @@ def _get_github_packages(purl, version_regex, ignored_tag_regex, default_package
             version = tag
 
         version = version.strip("Vv").strip()
-        if not version:
+        if not version or not version[0].isdigit():
             continue
 
         download_url = archive_download_url.format(

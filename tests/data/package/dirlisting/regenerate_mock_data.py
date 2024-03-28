@@ -510,6 +510,97 @@ TEST_SOURCES_INFO = [
             },
         ],
     },
+    {
+        "purl": "pkg:generic/linux",
+        "sources": [
+            {
+                "filename": "generic/linux/index.html",
+                "url": "https://cdn.kernel.org/pub/linux/kernel/",
+            },
+            {
+                "filename": "generic/linux/0.html",
+                "url": "https://cdn.kernel.org/pub/linux/kernel/v1.0/",
+            },
+            {
+                "filename": "generic/linux/1.html",
+                "url": "https://cdn.kernel.org/pub/linux/kernel/v1.1/",
+            },
+            {
+                "filename": "generic/linux/2.html",
+                "url": "https://cdn.kernel.org/pub/linux/kernel/v1.2/",
+            },
+            {
+                "filename": "generic/linux/3.html",
+                "url": "https://cdn.kernel.org/pub/linux/kernel/v1.3/",
+            },
+            {
+                "filename": "generic/linux/4.html",
+                "url": "https://cdn.kernel.org/pub/linux/kernel/v2.0/",
+            },
+            {
+                "filename": "generic/linux/5.html",
+                "url": "https://cdn.kernel.org/pub/linux/kernel/v2.1/",
+            },
+            {
+                "filename": "generic/linux/6.html",
+                "url": "https://cdn.kernel.org/pub/linux/kernel/v2.2/",
+            },
+            {
+                "filename": "generic/linux/7.html",
+                "url": "https://cdn.kernel.org/pub/linux/kernel/v2.3/",
+            },
+            {
+                "filename": "generic/linux/8.html",
+                "url": "https://cdn.kernel.org/pub/linux/kernel/v2.4/",
+            },
+            {
+                "filename": "generic/linux/9.html",
+                "url": "https://cdn.kernel.org/pub/linux/kernel/v2.5/",
+            },
+            {
+                "filename": "generic/linux/10.html",
+                "url": "https://cdn.kernel.org/pub/linux/kernel/v2.6/",
+            },
+            {
+                "filename": "generic/linux/11.html",
+                "url": "https://cdn.kernel.org/pub/linux/kernel/v3.0/",
+            },
+            {
+                "filename": "generic/linux/12.html",
+                "url": "https://cdn.kernel.org/pub/linux/kernel/v3.x/",
+            },
+            {
+                "filename": "generic/linux/13.html",
+                "url": "https://cdn.kernel.org/pub/linux/kernel/v4.x/",
+            },
+            {
+                "filename": "generic/linux/14.html",
+                "url": "https://cdn.kernel.org/pub/linux/kernel/v5.x/",
+            },
+            {
+                "filename": "generic/linux/15.html",
+                "url": "https://cdn.kernel.org/pub/linux/kernel/v6.x/",
+            },
+        ],
+    },
+    {
+        "purl": "pkg:generic/mtd-utils",
+        "sources": [
+            {
+                "filename": "generic/mtd-utils/index.html",
+                "url": "https://infraroot.at/pub/mtd/",
+            },
+        ],
+    },
+    {
+        "purl": "pkg:generic/barebox",
+        "sources": [
+            {
+                "filename": "generic/barebox/index.html",
+                "url": "https://www.barebox.org/download/",
+            },
+        ],
+    },
 ]
 
 
@@ -523,7 +614,8 @@ def fetch_mock_data(sources_info=TEST_SOURCES_INFO):
             url = source.get("url")
 
             response = requests.get(url)
-            with open(filename, "w", encoding="utf-8") as file:
+            file_path = data_location / filename
+            with open(file_path, "w", encoding="utf-8") as file:
                 file.write(response.text)
 
 
