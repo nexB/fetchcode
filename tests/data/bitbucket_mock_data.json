@@ -1,1 +1,124 @@
-{"scm": "git", "website": "", "has_wiki": true, "uuid": "{6bbee65f-ec4c-4c13-950e-d5715a2ad85b}", "links": {"watchers": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/watchers"}, "branches": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/refs/branches"}, "tags": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/refs/tags"}, "commits": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commits"}, "clone": [{"href": "https://bitbucket.org/litmis/python-itoolkit.git", "name": "https"}, {"href": "git@bitbucket.org:litmis/python-itoolkit.git", "name": "ssh"}], "self": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit"}, "source": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/src"}, "html": {"href": "https://bitbucket.org/litmis/python-itoolkit"}, "avatar": {"href": "https://bytebucket.org/ravatar/%7B6bbee65f-ec4c-4c13-950e-d5715a2ad85b%7D?ts=python"}, "hooks": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/hooks"}, "forks": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/forks"}, "downloads": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/downloads"}, "issues": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/issues"}, "pullrequests": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/pullrequests"}}, "fork_policy": "allow_forks", "full_name": "litmis/python-itoolkit", "name": "python-itoolkit", "project": {"links": {"self": {"href": "https://api.bitbucket.org/2.0/workspaces/litmis/projects/IIOSP"}, "html": {"href": "https://bitbucket.org/litmis/workspace/projects/IIOSP"}, "avatar": {"href": "https://bitbucket.org/account/user/litmis/projects/IIOSP/avatar/32?ts=1484155108"}}, "type": "project", "name": "Open Source Projects for IBM i", "key": "IIOSP", "uuid": "{ddb5632c-37eb-4e68-b5c4-bcd0d3953234}"}, "language": "python", "created_on": "2016-06-13T15:29:37.077879+00:00", "mainbranch": {"type": "branch", "name": "master"}, "workspace": {"slug": "litmis", "type": "workspace", "name": "litmis", "links": {"self": {"href": "https://api.bitbucket.org/2.0/workspaces/litmis"}, "html": {"href": "https://bitbucket.org/litmis/"}, "avatar": {"href": "https://bitbucket.org/workspaces/litmis/avatar/?ts=1543631786"}}, "uuid": "{f6c9fd02-930e-489e-993c-d96793cd67f6}"}, "has_issues": true, "owner": {"username": "litmis", "display_name": "litmis", "type": "team", "uuid": "{f6c9fd02-930e-489e-993c-d96793cd67f6}", "links": {"self": {"href": "https://api.bitbucket.org/2.0/teams/%7Bf6c9fd02-930e-489e-993c-d96793cd67f6%7D"}, "html": {"href": "https://bitbucket.org/%7Bf6c9fd02-930e-489e-993c-d96793cd67f6%7D/"}, "avatar": {"href": "https://bitbucket.org/account/litmis/avatar/"}}}, "updated_on": "2018-12-21T19:28:26.966898+00:00", "size": 1205097, "type": "repository", "slug": "python-itoolkit", "is_private": false, "description": "Repository for Python's iToolKit for IBM i."}
+{
+  "scm": "git",
+  "website": "",
+  "has_wiki": true,
+  "uuid": "{6bbee65f-ec4c-4c13-950e-d5715a2ad85b}",
+  "links": {
+    "watchers": {
+      "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/watchers"
+    },
+    "branches": {
+      "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/refs/branches"
+    },
+    "tags": {
+      "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/refs/tags"
+    },
+    "commits": {
+      "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commits"
+    },
+    "clone": [
+      {
+        "href": "https://bitbucket.org/litmis/python-itoolkit.git",
+        "name": "https"
+      },
+      {
+        "href": "git@bitbucket.org:litmis/python-itoolkit.git",
+        "name": "ssh"
+      }
+    ],
+    "self": {
+      "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit"
+    },
+    "source": {
+      "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/src"
+    },
+    "html": {
+      "href": "https://bitbucket.org/litmis/python-itoolkit"
+    },
+    "avatar": {
+      "href": "https://bytebucket.org/ravatar/%7B6bbee65f-ec4c-4c13-950e-d5715a2ad85b%7D?ts=python"
+    },
+    "hooks": {
+      "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/hooks"
+    },
+    "forks": {
+      "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/forks"
+    },
+    "downloads": {
+      "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/downloads"
+    },
+    "issues": {
+      "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/issues"
+    },
+    "pullrequests": {
+      "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/pullrequests"
+    }
+  },
+  "fork_policy": "allow_forks",
+  "full_name": "litmis/python-itoolkit",
+  "name": "python-itoolkit",
+  "project": {
+    "links": {
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/workspaces/litmis/projects/IIOSP"
+      },
+      "html": {
+        "href": "https://bitbucket.org/litmis/workspace/projects/IIOSP"
+      },
+      "avatar": {
+        "href": "https://bitbucket.org/account/user/litmis/projects/IIOSP/avatar/32?ts=1484155108"
+      }
+    },
+    "type": "project",
+    "name": "Open Source Projects for IBM i",
+    "key": "IIOSP",
+    "uuid": "{ddb5632c-37eb-4e68-b5c4-bcd0d3953234}"
+  },
+  "language": "python",
+  "created_on": "2016-06-13T15:29:37.077879+00:00",
+  "mainbranch": {
+    "type": "branch",
+    "name": "master"
+  },
+  "workspace": {
+    "slug": "litmis",
+    "type": "workspace",
+    "name": "litmis",
+    "links": {
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/workspaces/litmis"
+      },
+      "html": {
+        "href": "https://bitbucket.org/litmis/"
+      },
+      "avatar": {
+        "href": "https://bitbucket.org/workspaces/litmis/avatar/?ts=1543631786"
+      }
+    },
+    "uuid": "{f6c9fd02-930e-489e-993c-d96793cd67f6}"
+  },
+  "has_issues": true,
+  "owner": {
+    "username": "litmis",
+    "display_name": "litmis",
+    "type": "team",
+    "uuid": "{f6c9fd02-930e-489e-993c-d96793cd67f6}",
+    "links": {
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/teams/%7Bf6c9fd02-930e-489e-993c-d96793cd67f6%7D"
+      },
+      "html": {
+        "href": "https://bitbucket.org/%7Bf6c9fd02-930e-489e-993c-d96793cd67f6%7D/"
+      },
+      "avatar": {
+        "href": "https://bitbucket.org/account/litmis/avatar/"
+      }
+    }
+  },
+  "updated_on": "2018-12-21T19:28:26.966898+00:00",
+  "size": 1205097,
+  "type": "repository",
+  "slug": "python-itoolkit",
+  "is_private": false,
+  "description": "Repository for Python's iToolKit for IBM i."
+}

@@ -1,1 +1,72 @@
-{"name":"rubocop","downloads":111809413,"version":"0.89.1","version_downloads":259770,"platform":"ruby","authors":"Bozhidar Batsov, Jonas Arvidsson, Yuji Nakayama","info":"    RuboCop is a Ruby code style checking and code formatting tool.\n    It aims to enforce the community-driven Ruby Style Guide.\n","licenses":["MIT"],"metadata":{"homepage_uri":"https://rubocop.org/","changelog_uri":"https://github.com/rubocop-hq/rubocop/blob/master/CHANGELOG.md","bug_tracker_uri":"https://github.com/rubocop-hq/rubocop/issues","source_code_uri":"https://github.com/rubocop-hq/rubocop/","documentation_uri":"https://docs.rubocop.org/"},"yanked":false,"sha":"30794116b2804aab1abc74780a201fae5160c1d6a21550ce9786abd3ca0e07fa","project_uri":"https://rubygems.org/gems/rubocop","gem_uri":"https://rubygems.org/gems/rubocop-0.89.1.gem","homepage_uri":"https://rubocop.org/","wiki_uri":null,"documentation_uri":"https://docs.rubocop.org/","mailing_list_uri":null,"source_code_uri":"https://github.com/rubocop-hq/rubocop/","bug_tracker_uri":"https://github.com/rubocop-hq/rubocop/issues","changelog_uri":"https://github.com/rubocop-hq/rubocop/blob/master/CHANGELOG.md","dependencies":{"development":[{"name":"bundler","requirements":"\u003e= 1.15.0, \u003c 3.0"}],"runtime":[{"name":"parallel","requirements":"~\u003e 1.10"},{"name":"parser","requirements":"\u003e= 2.7.1.1"},{"name":"rainbow","requirements":"\u003e= 2.2.2, \u003c 4.0"},{"name":"regexp_parser","requirements":"\u003e= 1.7"},{"name":"rexml","requirements":"\u003e= 0"},{"name":"rubocop-ast","requirements":"\u003e= 0.3.0, \u003c 1.0"},{"name":"ruby-progressbar","requirements":"~\u003e 1.7"},{"name":"unicode-display_width","requirements":"\u003e= 1.4.0, \u003c 2.0"}]}}
+{
+  "name": "rubocop",
+  "downloads": 111809413,
+  "version": "0.89.1",
+  "version_downloads": 259770,
+  "platform": "ruby",
+  "authors": "Bozhidar Batsov, Jonas Arvidsson, Yuji Nakayama",
+  "info": "    RuboCop is a Ruby code style checking and code formatting tool.\n    It aims to enforce the community-driven Ruby Style Guide.\n",
+  "licenses": [
+    "MIT"
+  ],
+  "metadata": {
+    "homepage_uri": "https://rubocop.org/",
+    "changelog_uri": "https://github.com/rubocop-hq/rubocop/blob/master/CHANGELOG.md",
+    "bug_tracker_uri": "https://github.com/rubocop-hq/rubocop/issues",
+    "source_code_uri": "https://github.com/rubocop-hq/rubocop/",
+    "documentation_uri": "https://docs.rubocop.org/"
+  },
+  "yanked": false,
+  "sha": "30794116b2804aab1abc74780a201fae5160c1d6a21550ce9786abd3ca0e07fa",
+  "project_uri": "https://rubygems.org/gems/rubocop",
+  "gem_uri": "https://rubygems.org/gems/rubocop-0.89.1.gem",
+  "homepage_uri": "https://rubocop.org/",
+  "wiki_uri": null,
+  "documentation_uri": "https://docs.rubocop.org/",
+  "mailing_list_uri": null,
+  "source_code_uri": "https://github.com/rubocop-hq/rubocop/",
+  "bug_tracker_uri": "https://github.com/rubocop-hq/rubocop/issues",
+  "changelog_uri": "https://github.com/rubocop-hq/rubocop/blob/master/CHANGELOG.md",
+  "dependencies": {
+    "development": [
+      {
+        "name": "bundler",
+        "requirements": ">= 1.15.0, < 3.0"
+      }
+    ],
+    "runtime": [
+      {
+        "name": "parallel",
+        "requirements": "~> 1.10"
+      },
+      {
+        "name": "parser",
+        "requirements": ">= 2.7.1.1"
+      },
+      {
+        "name": "rainbow",
+        "requirements": ">= 2.2.2, < 4.0"
+      },
+      {
+        "name": "regexp_parser",
+        "requirements": ">= 1.7"
+      },
+      {
+        "name": "rexml",
+        "requirements": ">= 0"
+      },
+      {
+        "name": "rubocop-ast",
+        "requirements": ">= 0.3.0, < 1.0"
+      },
+      {
+        "name": "ruby-progressbar",
+        "requirements": "~> 1.7"
+      },
+      {
+        "name": "unicode-display_width",
+        "requirements": ">= 1.4.0, < 2.0"
+      }
+    ]
+  }
+}

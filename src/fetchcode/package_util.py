@@ -723,3 +723,107 @@ IPKG_RELEASES = {
         "date": "2002-08-19T04:23:00",
     },
 }
+
+
+def get_cocoapod_tags(spec, name):
+    try:
+        response = utils.get_text_response(spec)
+        data = response.strip()
+        for line in data.splitlines():
+            line = line.strip()
+            if line.startswith(name):
+                data_list = line.split("/")
+                if data_list[0] == name:
+                    data_list.pop(0)
+                return data_list
+        return None
+    except:
+        return None
+
+
+def construct_cocoapods_package(
+    purl,
+    name,
+    hashed_path,
+    cocoapods_org_url,
+    gh_repo_owner,
+    gh_repo_name,
+    tag
+):
+    name = name
+    homepage_url = None
+    vcs_url = None
+    github_url = None
+    bug_tracking_url = None
+    code_view_url = None
+    license_data = None
+    declared_license = None
+    primary_language = None
+
+    if gh_repo_owner and gh_repo_name:
+        base_path = "https://api.github.com/repos"
+        api_url = f"{base_path}/{gh_repo_owner}/{gh_repo_name}"
+        gh_repo_api_response = utils.get_github_rest(api_url)
+        gh_repo_api_head_request = utils.make_head_request(api_url)
+        gh_repo_api_status_code = gh_repo_api_head_request.status_code
+
+        if gh_repo_api_status_code == 200:
+            homepage_url = gh_repo_api_response.get("homepage")
+            vcs_url = gh_repo_api_response.get("git_url")
+            license_data = gh_repo_api_response.get("license") or {}
+            declared_license = license_data.get("spdx_id")
+            primary_language = gh_repo_api_response.get("language")
+
+        github_url = "https://github.com"
+        bug_tracking_url = f"{github_url}/{gh_repo_owner}/{gh_repo_name}/issues"
+        code_view_url = f"{github_url}/{gh_repo_owner}/{gh_repo_name}"
+
+    podspec_api_url = f"https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/{hashed_path}/{name}/{tag}/{name}.podspec.json"
+    podspec_api_response = utils.get_response(podspec_api_url)
+    homepage_url = podspec_api_response.get("homepage")
+
+    lic = podspec_api_response.get("license")
+    extracted_license_statement = None
+    if isinstance(lic, dict):
+        extracted_license_statement = lic
+    else:
+        extracted_license_statement = lic
+    if not declared_license:
+        declared_license = extracted_license_statement
+
+    source = podspec_api_response.get("source")
+    download_url = None
+    if isinstance(source, dict):
+        git_url = source.get("git", "")
+        http_url = source.get("http", "")
+        if http_url:
+            download_url = http_url
+        if git_url and not http_url:
+            if git_url.endswith(".git") and git_url.startswith("https://github.com/"):
+                gh_path = git_url[:-4]
+                github_tag = source.get("tag")
+                if github_tag and github_tag.startswith("v"):
+                    tag = github_tag
+                download_url = f"{gh_path}/archive/refs/tags/{tag}.tar.gz"
+                vcs_url = git_url
+        elif git_url:
+            vcs_url = git_url
+    elif isinstance(source, str):
+        if not vcs_url:
+            vcs_url = source
+
+    purl_pkg = Package(
+        homepage_url=homepage_url,
+        api_url=podspec_api_url,
+        bug_tracking_url=bug_tracking_url,
+        code_view_url=code_view_url,
+        download_url=download_url,
+        declared_license=declared_license,
+        primary_language=primary_language,
+        repository_homepage_url=cocoapods_org_url,
+        vcs_url=vcs_url,
+        **purl.to_dict(),
+    )
+    purl_pkg.version = tag
+
+    return purl_pkg

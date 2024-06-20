@@ -1,1 +1,548 @@
-{"pagelen": 10, "values": [{"name": "1.2", "links": {"commits": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commits/1.2"}, "self": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/refs/tags/1.2"}, "html": {"href": "https://bitbucket.org/litmis/python-itoolkit/commits/tag/1.2"}}, "tagger": null, "date": null, "message": null, "type": "tag", "target": {"hash": "4d1b9efb0fa7af527da8ec826d0ec7b0f4f82980", "repository": {"links": {"self": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit"}, "html": {"href": "https://bitbucket.org/litmis/python-itoolkit"}, "avatar": {"href": "https://bytebucket.org/ravatar/%7B6bbee65f-ec4c-4c13-950e-d5715a2ad85b%7D?ts=python"}}, "type": "repository", "name": "python-itoolkit", "full_name": "litmis/python-itoolkit", "uuid": "{6bbee65f-ec4c-4c13-950e-d5715a2ad85b}"}, "links": {"self": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/4d1b9efb0fa7af527da8ec826d0ec7b0f4f82980"}, "comments": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/4d1b9efb0fa7af527da8ec826d0ec7b0f4f82980/comments"}, "patch": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/patch/4d1b9efb0fa7af527da8ec826d0ec7b0f4f82980"}, "html": {"href": "https://bitbucket.org/litmis/python-itoolkit/commits/4d1b9efb0fa7af527da8ec826d0ec7b0f4f82980"}, "diff": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/diff/4d1b9efb0fa7af527da8ec826d0ec7b0f4f82980"}, "approve": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/4d1b9efb0fa7af527da8ec826d0ec7b0f4f82980/approve"}, "statuses": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/4d1b9efb0fa7af527da8ec826d0ec7b0f4f82980/statuses"}}, "author": {"raw": "Aaron Bartell <aaronbartell@gmail.com>", "type": "author", "user": {"display_name": "Aaron Bartell", "uuid": "{7f45e8f8-2459-4232-aec0-d2148a80e579}", "links": {"self": {"href": "https://api.bitbucket.org/2.0/users/%7B7f45e8f8-2459-4232-aec0-d2148a80e579%7D"}, "html": {"href": "https://bitbucket.org/%7B7f45e8f8-2459-4232-aec0-d2148a80e579%7D/"}, "avatar": {"href": "https://secure.gravatar.com/avatar/ec80dfeb39df25eca90d812300b95562?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-0.png"}}, "nickname": "aaronbartell", "type": "user", "account_id": "557058:55ac643a-6542-4ae9-a999-a232432c8a51"}}, "parents": [{"hash": "2ebc33bda1893e80df3042334a7ba699f9413344", "type": "commit", "links": {"self": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/2ebc33bda1893e80df3042334a7ba699f9413344"}, "html": {"href": "https://bitbucket.org/litmis/python-itoolkit/commits/2ebc33bda1893e80df3042334a7ba699f9413344"}}}], "date": "2017-10-27T18:27:40+00:00", "message": "Remove index.html\n", "type": "commit"}}, {"name": "1.3", "links": {"commits": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commits/1.3"}, "self": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/refs/tags/1.3"}, "html": {"href": "https://bitbucket.org/litmis/python-itoolkit/commits/tag/1.3"}}, "tagger": null, "date": null, "message": null, "type": "tag", "target": {"hash": "e131eb8ede5b66475a09e7e36463241957f610d6", "repository": {"links": {"self": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit"}, "html": {"href": "https://bitbucket.org/litmis/python-itoolkit"}, "avatar": {"href": "https://bytebucket.org/ravatar/%7B6bbee65f-ec4c-4c13-950e-d5715a2ad85b%7D?ts=python"}}, "type": "repository", "name": "python-itoolkit", "full_name": "litmis/python-itoolkit", "uuid": "{6bbee65f-ec4c-4c13-950e-d5715a2ad85b}"}, "links": {"self": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/e131eb8ede5b66475a09e7e36463241957f610d6"}, "comments": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/e131eb8ede5b66475a09e7e36463241957f610d6/comments"}, "patch": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/patch/e131eb8ede5b66475a09e7e36463241957f610d6"}, "html": {"href": "https://bitbucket.org/litmis/python-itoolkit/commits/e131eb8ede5b66475a09e7e36463241957f610d6"}, "diff": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/diff/e131eb8ede5b66475a09e7e36463241957f610d6"}, "approve": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/e131eb8ede5b66475a09e7e36463241957f610d6/approve"}, "statuses": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/e131eb8ede5b66475a09e7e36463241957f610d6/statuses"}}, "author": {"raw": "Ranger <adc@us.ibm.com>", "type": "author", "user": {"display_name": "Tony Cairns", "uuid": "{fce83954-6a4e-416f-88de-6bb36b05f560}", "links": {"self": {"href": "https://api.bitbucket.org/2.0/users/%7Bfce83954-6a4e-416f-88de-6bb36b05f560%7D"}, "html": {"href": "https://bitbucket.org/%7Bfce83954-6a4e-416f-88de-6bb36b05f560%7D/"}, "avatar": {"href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:544a8d52-b758-46e6-95f3-f619643b24c1/62f6c49e-4584-44f9-8448-fd00ed6ca6e9/128"}}, "nickname": "rangercairns", "type": "user", "account_id": "557058:544a8d52-b758-46e6-95f3-f619643b24c1"}}, "parents": [{"hash": "3d03952e99b63881bfdcac9e00d4fd05f065db7c", "type": "commit", "links": {"self": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/3d03952e99b63881bfdcac9e00d4fd05f065db7c"}, "html": {"href": "https://bitbucket.org/litmis/python-itoolkit/commits/3d03952e99b63881bfdcac9e00d4fd05f065db7c"}}}], "date": "2017-12-18T20:02:09+00:00", "message": "change iLibCall - fix UnicodeDecodeError: ascii codec cannot decode byte 0xc3\n", "type": "commit"}}, {"name": "1.4.0", "links": {"commits": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commits/1.4.0"}, "self": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/refs/tags/1.4.0"}, "html": {"href": "https://bitbucket.org/litmis/python-itoolkit/commits/tag/1.4.0"}}, "tagger": null, "date": null, "message": null, "type": "tag", "target": {"hash": "be890375edb4a9d98a3beca7e96956604720e2da", "repository": {"links": {"self": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit"}, "html": {"href": "https://bitbucket.org/litmis/python-itoolkit"}, "avatar": {"href": "https://bytebucket.org/ravatar/%7B6bbee65f-ec4c-4c13-950e-d5715a2ad85b%7D?ts=python"}}, "type": "repository", "name": "python-itoolkit", "full_name": "litmis/python-itoolkit", "uuid": "{6bbee65f-ec4c-4c13-950e-d5715a2ad85b}"}, "links": {"self": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/be890375edb4a9d98a3beca7e96956604720e2da"}, "comments": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/be890375edb4a9d98a3beca7e96956604720e2da/comments"}, "patch": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/patch/be890375edb4a9d98a3beca7e96956604720e2da"}, "html": {"href": "https://bitbucket.org/litmis/python-itoolkit/commits/be890375edb4a9d98a3beca7e96956604720e2da"}, "diff": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/diff/be890375edb4a9d98a3beca7e96956604720e2da"}, "approve": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/be890375edb4a9d98a3beca7e96956604720e2da/approve"}, "statuses": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/be890375edb4a9d98a3beca7e96956604720e2da/statuses"}}, "author": {"raw": "Kevin Adler <kadler@us.ibm.com>", "type": "author", "user": {"display_name": "Kevin Adler", "uuid": "{cff49445-9395-41a7-a8e0-b353374fdd29}", "links": {"self": {"href": "https://api.bitbucket.org/2.0/users/%7Bcff49445-9395-41a7-a8e0-b353374fdd29%7D"}, "html": {"href": "https://bitbucket.org/%7Bcff49445-9395-41a7-a8e0-b353374fdd29%7D/"}, "avatar": {"href": "https://secure.gravatar.com/avatar/cff0a2e720ed6c42cf23a9fb6fdf3c50?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKA-0.png"}}, "nickname": "kadler", "type": "user", "account_id": "557058:c0ae8a67-6c52-4774-80f4-99aac9844770"}}, "parents": [{"hash": "80c755d168483322c93317a15582e191d13b006c", "type": "commit", "links": {"self": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/80c755d168483322c93317a15582e191d13b006c"}, "html": {"href": "https://bitbucket.org/litmis/python-itoolkit/commits/80c755d168483322c93317a15582e191d13b006c"}}}], "date": "2018-01-11T18:17:58+00:00", "message": "Bump version: 1.3 → 1.4.0\n\n- Add bumpversion config\n- Use semver to make bumpversion package work\n", "type": "commit"}}, {"name": "1.5.0", "links": {"commits": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commits/1.5.0"}, "self": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/refs/tags/1.5.0"}, "html": {"href": "https://bitbucket.org/litmis/python-itoolkit/commits/tag/1.5.0"}}, "tagger": {"raw": "Kevin Adler <kadler@us.ibm.com>", "type": "author", "user": {"display_name": "Kevin Adler", "uuid": "{cff49445-9395-41a7-a8e0-b353374fdd29}", "links": {"self": {"href": "https://api.bitbucket.org/2.0/users/%7Bcff49445-9395-41a7-a8e0-b353374fdd29%7D"}, "html": {"href": "https://bitbucket.org/%7Bcff49445-9395-41a7-a8e0-b353374fdd29%7D/"}, "avatar": {"href": "https://secure.gravatar.com/avatar/cff0a2e720ed6c42cf23a9fb6fdf3c50?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKA-0.png"}}, "nickname": "kadler", "type": "user", "account_id": "557058:c0ae8a67-6c52-4774-80f4-99aac9844770"}}, "date": "2018-07-16T20:48:39+00:00", "message": "Bump version: 1.4.0 → 1.5.0\n", "type": "tag", "target": {"hash": "8a5b54f1dc7c270550b8c2d0098abe8ee620645b", "repository": {"links": {"self": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit"}, "html": {"href": "https://bitbucket.org/litmis/python-itoolkit"}, "avatar": {"href": "https://bytebucket.org/ravatar/%7B6bbee65f-ec4c-4c13-950e-d5715a2ad85b%7D?ts=python"}}, "type": "repository", "name": "python-itoolkit", "full_name": "litmis/python-itoolkit", "uuid": "{6bbee65f-ec4c-4c13-950e-d5715a2ad85b}"}, "links": {"self": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/8a5b54f1dc7c270550b8c2d0098abe8ee620645b"}, "comments": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/8a5b54f1dc7c270550b8c2d0098abe8ee620645b/comments"}, "patch": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/patch/8a5b54f1dc7c270550b8c2d0098abe8ee620645b"}, "html": {"href": "https://bitbucket.org/litmis/python-itoolkit/commits/8a5b54f1dc7c270550b8c2d0098abe8ee620645b"}, "diff": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/diff/8a5b54f1dc7c270550b8c2d0098abe8ee620645b"}, "approve": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/8a5b54f1dc7c270550b8c2d0098abe8ee620645b/approve"}, "statuses": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/8a5b54f1dc7c270550b8c2d0098abe8ee620645b/statuses"}}, "author": {"raw": "Kevin Adler <kadler@us.ibm.com>", "type": "author", "user": {"display_name": "Kevin Adler", "uuid": "{cff49445-9395-41a7-a8e0-b353374fdd29}", "links": {"self": {"href": "https://api.bitbucket.org/2.0/users/%7Bcff49445-9395-41a7-a8e0-b353374fdd29%7D"}, "html": {"href": "https://bitbucket.org/%7Bcff49445-9395-41a7-a8e0-b353374fdd29%7D/"}, "avatar": {"href": "https://secure.gravatar.com/avatar/cff0a2e720ed6c42cf23a9fb6fdf3c50?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKA-0.png"}}, "nickname": "kadler", "type": "user", "account_id": "557058:c0ae8a67-6c52-4774-80f4-99aac9844770"}}, "parents": [{"hash": "bacc74170264043f13c4eca662e0bc6b075a1546", "type": "commit", "links": {"self": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/bacc74170264043f13c4eca662e0bc6b075a1546"}, "html": {"href": "https://bitbucket.org/litmis/python-itoolkit/commits/bacc74170264043f13c4eca662e0bc6b075a1546"}}}], "date": "2018-07-16T20:48:39+00:00", "message": "Bump version: 1.4.0 → 1.5.0\n", "type": "commit"}}, {"name": "1.5.1", "links": {"commits": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commits/1.5.1"}, "self": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/refs/tags/1.5.1"}, "html": {"href": "https://bitbucket.org/litmis/python-itoolkit/commits/tag/1.5.1"}}, "tagger": {"raw": "Kevin Adler <kadler@us.ibm.com>", "type": "author", "user": {"display_name": "Kevin Adler", "uuid": "{cff49445-9395-41a7-a8e0-b353374fdd29}", "links": {"self": {"href": "https://api.bitbucket.org/2.0/users/%7Bcff49445-9395-41a7-a8e0-b353374fdd29%7D"}, "html": {"href": "https://bitbucket.org/%7Bcff49445-9395-41a7-a8e0-b353374fdd29%7D/"}, "avatar": {"href": "https://secure.gravatar.com/avatar/cff0a2e720ed6c42cf23a9fb6fdf3c50?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKA-0.png"}}, "nickname": "kadler", "type": "user", "account_id": "557058:c0ae8a67-6c52-4774-80f4-99aac9844770"}}, "date": "2018-08-02T21:54:59+00:00", "message": "Bump version: 1.5.0 → 1.5.1\n", "type": "tag", "target": {"hash": "b4cf1a8a437440d7c5ce1d5fba3ea25e6c5c1094", "repository": {"links": {"self": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit"}, "html": {"href": "https://bitbucket.org/litmis/python-itoolkit"}, "avatar": {"href": "https://bytebucket.org/ravatar/%7B6bbee65f-ec4c-4c13-950e-d5715a2ad85b%7D?ts=python"}}, "type": "repository", "name": "python-itoolkit", "full_name": "litmis/python-itoolkit", "uuid": "{6bbee65f-ec4c-4c13-950e-d5715a2ad85b}"}, "links": {"self": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/b4cf1a8a437440d7c5ce1d5fba3ea25e6c5c1094"}, "comments": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/b4cf1a8a437440d7c5ce1d5fba3ea25e6c5c1094/comments"}, "patch": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/patch/b4cf1a8a437440d7c5ce1d5fba3ea25e6c5c1094"}, "html": {"href": "https://bitbucket.org/litmis/python-itoolkit/commits/b4cf1a8a437440d7c5ce1d5fba3ea25e6c5c1094"}, "diff": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/diff/b4cf1a8a437440d7c5ce1d5fba3ea25e6c5c1094"}, "approve": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/b4cf1a8a437440d7c5ce1d5fba3ea25e6c5c1094/approve"}, "statuses": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/b4cf1a8a437440d7c5ce1d5fba3ea25e6c5c1094/statuses"}}, "author": {"raw": "Kevin Adler <kadler@us.ibm.com>", "type": "author", "user": {"display_name": "Kevin Adler", "uuid": "{cff49445-9395-41a7-a8e0-b353374fdd29}", "links": {"self": {"href": "https://api.bitbucket.org/2.0/users/%7Bcff49445-9395-41a7-a8e0-b353374fdd29%7D"}, "html": {"href": "https://bitbucket.org/%7Bcff49445-9395-41a7-a8e0-b353374fdd29%7D/"}, "avatar": {"href": "https://secure.gravatar.com/avatar/cff0a2e720ed6c42cf23a9fb6fdf3c50?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKA-0.png"}}, "nickname": "kadler", "type": "user", "account_id": "557058:c0ae8a67-6c52-4774-80f4-99aac9844770"}}, "parents": [{"hash": "84004e8b76214881efecde8cf4a0a1fcc5e536bc", "type": "commit", "links": {"self": {"href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/84004e8b76214881efecde8cf4a0a1fcc5e536bc"}, "html": {"href": "https://bitbucket.org/litmis/python-itoolkit/commits/84004e8b76214881efecde8cf4a0a1fcc5e536bc"}}}], "date": "2018-08-02T21:54:59+00:00", "message": "Bump version: 1.5.0 → 1.5.1\n", "type": "commit"}}], "page": 1}
+{
+  "pagelen": 10,
+  "values": [
+    {
+      "name": "1.2",
+      "links": {
+        "commits": {
+          "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commits/1.2"
+        },
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/refs/tags/1.2"
+        },
+        "html": {
+          "href": "https://bitbucket.org/litmis/python-itoolkit/commits/tag/1.2"
+        }
+      },
+      "tagger": null,
+      "date": null,
+      "message": null,
+      "type": "tag",
+      "target": {
+        "hash": "4d1b9efb0fa7af527da8ec826d0ec7b0f4f82980",
+        "repository": {
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit"
+            },
+            "html": {
+              "href": "https://bitbucket.org/litmis/python-itoolkit"
+            },
+            "avatar": {
+              "href": "https://bytebucket.org/ravatar/%7B6bbee65f-ec4c-4c13-950e-d5715a2ad85b%7D?ts=python"
+            }
+          },
+          "type": "repository",
+          "name": "python-itoolkit",
+          "full_name": "litmis/python-itoolkit",
+          "uuid": "{6bbee65f-ec4c-4c13-950e-d5715a2ad85b}"
+        },
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/4d1b9efb0fa7af527da8ec826d0ec7b0f4f82980"
+          },
+          "comments": {
+            "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/4d1b9efb0fa7af527da8ec826d0ec7b0f4f82980/comments"
+          },
+          "patch": {
+            "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/patch/4d1b9efb0fa7af527da8ec826d0ec7b0f4f82980"
+          },
+          "html": {
+            "href": "https://bitbucket.org/litmis/python-itoolkit/commits/4d1b9efb0fa7af527da8ec826d0ec7b0f4f82980"
+          },
+          "diff": {
+            "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/diff/4d1b9efb0fa7af527da8ec826d0ec7b0f4f82980"
+          },
+          "approve": {
+            "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/4d1b9efb0fa7af527da8ec826d0ec7b0f4f82980/approve"
+          },
+          "statuses": {
+            "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/4d1b9efb0fa7af527da8ec826d0ec7b0f4f82980/statuses"
+          }
+        },
+        "author": {
+          "raw": "Aaron Bartell <aaronbartell@gmail.com>",
+          "type": "author",
+          "user": {
+            "display_name": "Aaron Bartell",
+            "uuid": "{7f45e8f8-2459-4232-aec0-d2148a80e579}",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/users/%7B7f45e8f8-2459-4232-aec0-d2148a80e579%7D"
+              },
+              "html": {
+                "href": "https://bitbucket.org/%7B7f45e8f8-2459-4232-aec0-d2148a80e579%7D/"
+              },
+              "avatar": {
+                "href": "https://secure.gravatar.com/avatar/ec80dfeb39df25eca90d812300b95562?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAB-0.png"
+              }
+            },
+            "nickname": "aaronbartell",
+            "type": "user",
+            "account_id": "557058:55ac643a-6542-4ae9-a999-a232432c8a51"
+          }
+        },
+        "parents": [
+          {
+            "hash": "2ebc33bda1893e80df3042334a7ba699f9413344",
+            "type": "commit",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/2ebc33bda1893e80df3042334a7ba699f9413344"
+              },
+              "html": {
+                "href": "https://bitbucket.org/litmis/python-itoolkit/commits/2ebc33bda1893e80df3042334a7ba699f9413344"
+              }
+            }
+          }
+        ],
+        "date": "2017-10-27T18:27:40+00:00",
+        "message": "Remove index.html\n",
+        "type": "commit"
+      }
+    },
+    {
+      "name": "1.3",
+      "links": {
+        "commits": {
+          "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commits/1.3"
+        },
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/refs/tags/1.3"
+        },
+        "html": {
+          "href": "https://bitbucket.org/litmis/python-itoolkit/commits/tag/1.3"
+        }
+      },
+      "tagger": null,
+      "date": null,
+      "message": null,
+      "type": "tag",
+      "target": {
+        "hash": "e131eb8ede5b66475a09e7e36463241957f610d6",
+        "repository": {
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit"
+            },
+            "html": {
+              "href": "https://bitbucket.org/litmis/python-itoolkit"
+            },
+            "avatar": {
+              "href": "https://bytebucket.org/ravatar/%7B6bbee65f-ec4c-4c13-950e-d5715a2ad85b%7D?ts=python"
+            }
+          },
+          "type": "repository",
+          "name": "python-itoolkit",
+          "full_name": "litmis/python-itoolkit",
+          "uuid": "{6bbee65f-ec4c-4c13-950e-d5715a2ad85b}"
+        },
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/e131eb8ede5b66475a09e7e36463241957f610d6"
+          },
+          "comments": {
+            "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/e131eb8ede5b66475a09e7e36463241957f610d6/comments"
+          },
+          "patch": {
+            "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/patch/e131eb8ede5b66475a09e7e36463241957f610d6"
+          },
+          "html": {
+            "href": "https://bitbucket.org/litmis/python-itoolkit/commits/e131eb8ede5b66475a09e7e36463241957f610d6"
+          },
+          "diff": {
+            "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/diff/e131eb8ede5b66475a09e7e36463241957f610d6"
+          },
+          "approve": {
+            "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/e131eb8ede5b66475a09e7e36463241957f610d6/approve"
+          },
+          "statuses": {
+            "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/e131eb8ede5b66475a09e7e36463241957f610d6/statuses"
+          }
+        },
+        "author": {
+          "raw": "Ranger <adc@us.ibm.com>",
+          "type": "author",
+          "user": {
+            "display_name": "Tony Cairns",
+            "uuid": "{fce83954-6a4e-416f-88de-6bb36b05f560}",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/users/%7Bfce83954-6a4e-416f-88de-6bb36b05f560%7D"
+              },
+              "html": {
+                "href": "https://bitbucket.org/%7Bfce83954-6a4e-416f-88de-6bb36b05f560%7D/"
+              },
+              "avatar": {
+                "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/557058:544a8d52-b758-46e6-95f3-f619643b24c1/62f6c49e-4584-44f9-8448-fd00ed6ca6e9/128"
+              }
+            },
+            "nickname": "rangercairns",
+            "type": "user",
+            "account_id": "557058:544a8d52-b758-46e6-95f3-f619643b24c1"
+          }
+        },
+        "parents": [
+          {
+            "hash": "3d03952e99b63881bfdcac9e00d4fd05f065db7c",
+            "type": "commit",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/3d03952e99b63881bfdcac9e00d4fd05f065db7c"
+              },
+              "html": {
+                "href": "https://bitbucket.org/litmis/python-itoolkit/commits/3d03952e99b63881bfdcac9e00d4fd05f065db7c"
+              }
+            }
+          }
+        ],
+        "date": "2017-12-18T20:02:09+00:00",
+        "message": "change iLibCall - fix UnicodeDecodeError: ascii codec cannot decode byte 0xc3\n",
+        "type": "commit"
+      }
+    },
+    {
+      "name": "1.4.0",
+      "links": {
+        "commits": {
+          "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commits/1.4.0"
+        },
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/refs/tags/1.4.0"
+        },
+        "html": {
+          "href": "https://bitbucket.org/litmis/python-itoolkit/commits/tag/1.4.0"
+        }
+      },
+      "tagger": null,
+      "date": null,
+      "message": null,
+      "type": "tag",
+      "target": {
+        "hash": "be890375edb4a9d98a3beca7e96956604720e2da",
+        "repository": {
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit"
+            },
+            "html": {
+              "href": "https://bitbucket.org/litmis/python-itoolkit"
+            },
+            "avatar": {
+              "href": "https://bytebucket.org/ravatar/%7B6bbee65f-ec4c-4c13-950e-d5715a2ad85b%7D?ts=python"
+            }
+          },
+          "type": "repository",
+          "name": "python-itoolkit",
+          "full_name": "litmis/python-itoolkit",
+          "uuid": "{6bbee65f-ec4c-4c13-950e-d5715a2ad85b}"
+        },
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/be890375edb4a9d98a3beca7e96956604720e2da"
+          },
+          "comments": {
+            "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/be890375edb4a9d98a3beca7e96956604720e2da/comments"
+          },
+          "patch": {
+            "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/patch/be890375edb4a9d98a3beca7e96956604720e2da"
+          },
+          "html": {
+            "href": "https://bitbucket.org/litmis/python-itoolkit/commits/be890375edb4a9d98a3beca7e96956604720e2da"
+          },
+          "diff": {
+            "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/diff/be890375edb4a9d98a3beca7e96956604720e2da"
+          },
+          "approve": {
+            "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/be890375edb4a9d98a3beca7e96956604720e2da/approve"
+          },
+          "statuses": {
+            "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/be890375edb4a9d98a3beca7e96956604720e2da/statuses"
+          }
+        },
+        "author": {
+          "raw": "Kevin Adler <kadler@us.ibm.com>",
+          "type": "author",
+          "user": {
+            "display_name": "Kevin Adler",
+            "uuid": "{cff49445-9395-41a7-a8e0-b353374fdd29}",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/users/%7Bcff49445-9395-41a7-a8e0-b353374fdd29%7D"
+              },
+              "html": {
+                "href": "https://bitbucket.org/%7Bcff49445-9395-41a7-a8e0-b353374fdd29%7D/"
+              },
+              "avatar": {
+                "href": "https://secure.gravatar.com/avatar/cff0a2e720ed6c42cf23a9fb6fdf3c50?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKA-0.png"
+              }
+            },
+            "nickname": "kadler",
+            "type": "user",
+            "account_id": "557058:c0ae8a67-6c52-4774-80f4-99aac9844770"
+          }
+        },
+        "parents": [
+          {
+            "hash": "80c755d168483322c93317a15582e191d13b006c",
+            "type": "commit",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/80c755d168483322c93317a15582e191d13b006c"
+              },
+              "html": {
+                "href": "https://bitbucket.org/litmis/python-itoolkit/commits/80c755d168483322c93317a15582e191d13b006c"
+              }
+            }
+          }
+        ],
+        "date": "2018-01-11T18:17:58+00:00",
+        "message": "Bump version: 1.3 \u2192 1.4.0\n\n- Add bumpversion config\n- Use semver to make bumpversion package work\n",
+        "type": "commit"
+      }
+    },
+    {
+      "name": "1.5.0",
+      "links": {
+        "commits": {
+          "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commits/1.5.0"
+        },
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/refs/tags/1.5.0"
+        },
+        "html": {
+          "href": "https://bitbucket.org/litmis/python-itoolkit/commits/tag/1.5.0"
+        }
+      },
+      "tagger": {
+        "raw": "Kevin Adler <kadler@us.ibm.com>",
+        "type": "author",
+        "user": {
+          "display_name": "Kevin Adler",
+          "uuid": "{cff49445-9395-41a7-a8e0-b353374fdd29}",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/users/%7Bcff49445-9395-41a7-a8e0-b353374fdd29%7D"
+            },
+            "html": {
+              "href": "https://bitbucket.org/%7Bcff49445-9395-41a7-a8e0-b353374fdd29%7D/"
+            },
+            "avatar": {
+              "href": "https://secure.gravatar.com/avatar/cff0a2e720ed6c42cf23a9fb6fdf3c50?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKA-0.png"
+            }
+          },
+          "nickname": "kadler",
+          "type": "user",
+          "account_id": "557058:c0ae8a67-6c52-4774-80f4-99aac9844770"
+        }
+      },
+      "date": "2018-07-16T20:48:39+00:00",
+      "message": "Bump version: 1.4.0 \u2192 1.5.0\n",
+      "type": "tag",
+      "target": {
+        "hash": "8a5b54f1dc7c270550b8c2d0098abe8ee620645b",
+        "repository": {
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit"
+            },
+            "html": {
+              "href": "https://bitbucket.org/litmis/python-itoolkit"
+            },
+            "avatar": {
+              "href": "https://bytebucket.org/ravatar/%7B6bbee65f-ec4c-4c13-950e-d5715a2ad85b%7D?ts=python"
+            }
+          },
+          "type": "repository",
+          "name": "python-itoolkit",
+          "full_name": "litmis/python-itoolkit",
+          "uuid": "{6bbee65f-ec4c-4c13-950e-d5715a2ad85b}"
+        },
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/8a5b54f1dc7c270550b8c2d0098abe8ee620645b"
+          },
+          "comments": {
+            "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/8a5b54f1dc7c270550b8c2d0098abe8ee620645b/comments"
+          },
+          "patch": {
+            "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/patch/8a5b54f1dc7c270550b8c2d0098abe8ee620645b"
+          },
+          "html": {
+            "href": "https://bitbucket.org/litmis/python-itoolkit/commits/8a5b54f1dc7c270550b8c2d0098abe8ee620645b"
+          },
+          "diff": {
+            "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/diff/8a5b54f1dc7c270550b8c2d0098abe8ee620645b"
+          },
+          "approve": {
+            "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/8a5b54f1dc7c270550b8c2d0098abe8ee620645b/approve"
+          },
+          "statuses": {
+            "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/8a5b54f1dc7c270550b8c2d0098abe8ee620645b/statuses"
+          }
+        },
+        "author": {
+          "raw": "Kevin Adler <kadler@us.ibm.com>",
+          "type": "author",
+          "user": {
+            "display_name": "Kevin Adler",
+            "uuid": "{cff49445-9395-41a7-a8e0-b353374fdd29}",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/users/%7Bcff49445-9395-41a7-a8e0-b353374fdd29%7D"
+              },
+              "html": {
+                "href": "https://bitbucket.org/%7Bcff49445-9395-41a7-a8e0-b353374fdd29%7D/"
+              },
+              "avatar": {
+                "href": "https://secure.gravatar.com/avatar/cff0a2e720ed6c42cf23a9fb6fdf3c50?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKA-0.png"
+              }
+            },
+            "nickname": "kadler",
+            "type": "user",
+            "account_id": "557058:c0ae8a67-6c52-4774-80f4-99aac9844770"
+          }
+        },
+        "parents": [
+          {
+            "hash": "bacc74170264043f13c4eca662e0bc6b075a1546",
+            "type": "commit",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/bacc74170264043f13c4eca662e0bc6b075a1546"
+              },
+              "html": {
+                "href": "https://bitbucket.org/litmis/python-itoolkit/commits/bacc74170264043f13c4eca662e0bc6b075a1546"
+              }
+            }
+          }
+        ],
+        "date": "2018-07-16T20:48:39+00:00",
+        "message": "Bump version: 1.4.0 \u2192 1.5.0\n",
+        "type": "commit"
+      }
+    },
+    {
+      "name": "1.5.1",
+      "links": {
+        "commits": {
+          "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commits/1.5.1"
+        },
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/refs/tags/1.5.1"
+        },
+        "html": {
+          "href": "https://bitbucket.org/litmis/python-itoolkit/commits/tag/1.5.1"
+        }
+      },
+      "tagger": {
+        "raw": "Kevin Adler <kadler@us.ibm.com>",
+        "type": "author",
+        "user": {
+          "display_name": "Kevin Adler",
+          "uuid": "{cff49445-9395-41a7-a8e0-b353374fdd29}",
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/users/%7Bcff49445-9395-41a7-a8e0-b353374fdd29%7D"
+            },
+            "html": {
+              "href": "https://bitbucket.org/%7Bcff49445-9395-41a7-a8e0-b353374fdd29%7D/"
+            },
+            "avatar": {
+              "href": "https://secure.gravatar.com/avatar/cff0a2e720ed6c42cf23a9fb6fdf3c50?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKA-0.png"
+            }
+          },
+          "nickname": "kadler",
+          "type": "user",
+          "account_id": "557058:c0ae8a67-6c52-4774-80f4-99aac9844770"
+        }
+      },
+      "date": "2018-08-02T21:54:59+00:00",
+      "message": "Bump version: 1.5.0 \u2192 1.5.1\n",
+      "type": "tag",
+      "target": {
+        "hash": "b4cf1a8a437440d7c5ce1d5fba3ea25e6c5c1094",
+        "repository": {
+          "links": {
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit"
+            },
+            "html": {
+              "href": "https://bitbucket.org/litmis/python-itoolkit"
+            },
+            "avatar": {
+              "href": "https://bytebucket.org/ravatar/%7B6bbee65f-ec4c-4c13-950e-d5715a2ad85b%7D?ts=python"
+            }
+          },
+          "type": "repository",
+          "name": "python-itoolkit",
+          "full_name": "litmis/python-itoolkit",
+          "uuid": "{6bbee65f-ec4c-4c13-950e-d5715a2ad85b}"
+        },
+        "links": {
+          "self": {
+            "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/b4cf1a8a437440d7c5ce1d5fba3ea25e6c5c1094"
+          },
+          "comments": {
+            "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/b4cf1a8a437440d7c5ce1d5fba3ea25e6c5c1094/comments"
+          },
+          "patch": {
+            "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/patch/b4cf1a8a437440d7c5ce1d5fba3ea25e6c5c1094"
+          },
+          "html": {
+            "href": "https://bitbucket.org/litmis/python-itoolkit/commits/b4cf1a8a437440d7c5ce1d5fba3ea25e6c5c1094"
+          },
+          "diff": {
+            "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/diff/b4cf1a8a437440d7c5ce1d5fba3ea25e6c5c1094"
+          },
+          "approve": {
+            "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/b4cf1a8a437440d7c5ce1d5fba3ea25e6c5c1094/approve"
+          },
+          "statuses": {
+            "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/b4cf1a8a437440d7c5ce1d5fba3ea25e6c5c1094/statuses"
+          }
+        },
+        "author": {
+          "raw": "Kevin Adler <kadler@us.ibm.com>",
+          "type": "author",
+          "user": {
+            "display_name": "Kevin Adler",
+            "uuid": "{cff49445-9395-41a7-a8e0-b353374fdd29}",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/users/%7Bcff49445-9395-41a7-a8e0-b353374fdd29%7D"
+              },
+              "html": {
+                "href": "https://bitbucket.org/%7Bcff49445-9395-41a7-a8e0-b353374fdd29%7D/"
+              },
+              "avatar": {
+                "href": "https://secure.gravatar.com/avatar/cff0a2e720ed6c42cf23a9fb6fdf3c50?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FKA-0.png"
+              }
+            },
+            "nickname": "kadler",
+            "type": "user",
+            "account_id": "557058:c0ae8a67-6c52-4774-80f4-99aac9844770"
+          }
+        },
+        "parents": [
+          {
+            "hash": "84004e8b76214881efecde8cf4a0a1fcc5e536bc",
+            "type": "commit",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/repositories/litmis/python-itoolkit/commit/84004e8b76214881efecde8cf4a0a1fcc5e536bc"
+              },
+              "html": {
+                "href": "https://bitbucket.org/litmis/python-itoolkit/commits/84004e8b76214881efecde8cf4a0a1fcc5e536bc"
+              }
+            }
+          }
+        ],
+        "date": "2018-08-02T21:54:59+00:00",
+        "message": "Bump version: 1.5.0 \u2192 1.5.1\n",
+        "type": "commit"
+      }
+    }
+  ],
+  "page": 1
+}

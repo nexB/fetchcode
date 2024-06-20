@@ -1,0 +1,17 @@
+{
+    "input_purl": "pkg:cocoapods/KVLLibraries",
+    "input_name": "KVLLibraries",
+    "cocoapods_org_url": "https://cocoapods.org/pods/KVLLibraries",
+    "repository_homepage_url": "https://cocoapods.org/pods/KVLLibraries",
+    "no_github_repo": null,
+    "gh_repo_four_o_four": "The cocoapods.org GitHub repo url for KVLLibraries returns 404",
+    "http_url": null,
+    "cocoapods_org_url_status_code": 200,
+    "cocoapods_org_gh_repo_url_status_code": 404,
+    "cocoapods_org_gh_repo_owner": "KevalPatel94",
+    "cocoapods_org_gh_repo_name": "KVLLibraries",
+    "cocoapods_org_gh_repo_url": "https://github.com/KevalPatel94/KVLLibraries",
+    "cocoapods_org_podspec_url": "https://github.com/CocoaPods/Specs/blob/master/Specs/5/1/f/KVLLibraries/1.1.0/KVLLibraries.podspec.json",
+    "cocoapods_org_pkg_home_url": null,
+    "cocoapods_org_pod_name": "KVLLibraries"
+}

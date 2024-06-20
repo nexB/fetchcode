@@ -32,7 +32,10 @@ from fetchcode.package_util import ErofsUtilsGitHubSource
 from fetchcode.package_util import GitHubSource
 from fetchcode.package_util import MiniupnpPackagesGitHubSource
 from fetchcode.package_util import OpenSSLGitHubSource
+from fetchcode.package_util import construct_cocoapods_package
+from fetchcode.package_util import get_cocoapod_tags
 from fetchcode.packagedcode_models import Package
+from fetchcode.utils import get_hashed_path
 from fetchcode.utils import get_response
 
 router = Router()
@@ -360,6 +363,50 @@ def get_gnu_data_from_purl(purl):
     yield from extract_packages_from_listing(
         purl, source_archive_url, version_regex, []
     )
+
+
+@router.route("pkg:cocoapods/.*")
+def get_cocoapods_data_from_purl(purl):
+    purl = PackageURL.from_string(purl)
+    name = purl.name
+    cocoapods_org_url = f"https://cocoapods.org/pods/{name}"
+    api = "https://cdn.cocoapods.org"
+    hashed_path = get_hashed_path(name)
+    hashed_path_underscore = hashed_path.replace("/", "_")
+    file_prefix = "all_pods_versions_"
+    spec = f"{api}/{file_prefix}{hashed_path_underscore}.txt"
+    data_list = get_cocoapod_tags(spec, name)
+
+    for tag in data_list:
+        if purl.version and tag != purl.version:
+            continue
+
+        gh_repo_owner = None
+        gh_repo_name = name
+        podspec_api_url = f"https://raw.githubusercontent.com/CocoaPods/Specs/master/Specs/{hashed_path}/{name}/{tag}/{name}.podspec.json"
+        podspec_api_response = get_response(podspec_api_url)
+        podspec_homepage = podspec_api_response.get('homepage')
+
+        if podspec_homepage.startswith("https://github.com/"):
+            podspec_homepage_remove_gh_prefix = podspec_homepage.replace("https://github.com/", "")
+            podspec_homepage_split = podspec_homepage_remove_gh_prefix.split("/")
+            gh_repo_owner = podspec_homepage_split[0]
+            gh_repo_name = podspec_homepage_split[-1]
+
+        tag_pkg = construct_cocoapods_package(
+            purl,
+            name,
+            hashed_path,
+            cocoapods_org_url,
+            gh_repo_owner,
+            gh_repo_name,
+            tag
+        )
+
+        yield tag_pkg
+
+        if purl.version:
+            break
 
 
 @dataclasses.dataclass

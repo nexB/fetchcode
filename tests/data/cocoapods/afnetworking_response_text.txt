@@ -1,0 +1,445 @@
+<!DOCTYPE html><html lang="en-en"><head><title>AFNetworking on CocoaPods.org</title><meta charset="utf-8" /><meta content="cocoapods objective-c objc swift package manager libraries documentation search pods podspec podfile cocoa apple ios library" name="keywords" /><meta content="IE=edge" http-equiv="X-UA-Compatible" /><meta content="width=device-width, initial-scale=1.0" name="viewport" /><meta content="A delightful networking framework for Apple platforms." name="description" /><meta content="Mattt Thompson" name="author" /><meta content="summary_large_image" name="twitter:card" /><meta content="@CocoaPods" name="twitter:site" /><meta content="@AFNetworking" name="twitter:creator" /><meta content="AFNetworking" name="twitter:title" /><meta content="A delightful networking framework for Apple platforms." name="twitter:description" /><meta content="https://cocoapods.org/pods/AFNetworking" name="twitter:url" /><meta content="http://cocoadocs.org/docsets/AFNetworking/4.0.1/preview.png" name="twitter:image:src" /><meta content="CocoaPods" property="og:site_name" /><meta content="AFNetworking" property="og:title" /><meta content="https://cocoapods.org/pods/AFNetworking" property="og:url" /><meta content="website" property="og:type" /><meta content="A delightful networking framework for Apple platforms." property="og:description" /><meta content="http://cocoadocs.org/docsets/AFNetworking/4.0.1/preview.png" property="og:image" /><link rel="shortcut icon" href="https://cocoapods.org/favicons/favicon.ico" type="image/x-icon" /><link rel="apple-touch-icon" href="https://cocoapods.org/favicons/apple-touch-icon.png" /><link rel="apple-touch-icon" sizes="57x57" href="https://cocoapods.org/favicons/apple-touch-icon-57x57.png" /><link rel="apple-touch-icon" sizes="60x60" href="https://cocoapods.org/favicons/apple-touch-icon-60x60.png" /><link rel="apple-touch-icon" sizes="72x72" href="https://cocoapods.org/favicons/apple-touch-icon-72x72.png" /><link rel="apple-touch-icon" sizes="76x76" href="https://cocoapods.org/favicons/apple-touch-icon-76x76.png" /><link rel="apple-touch-icon" sizes="114x114" href="https://cocoapods.org/favicons/apple-touch-icon-114x114.png" /><link rel="apple-touch-icon" sizes="120x120" href="https://cocoapods.org/favicons/apple-touch-icon-120x120.png" /><link rel="apple-touch-icon" sizes="144x144" href="https://cocoapods.org/favicons/apple-touch-icon-144x144.png" /><link rel="apple-touch-icon" sizes="152x152" href="https://cocoapods.org/favicons/apple-touch-icon-152x152.png" /><script src="/javascripts/application-b47225b500ad9782f7595481320e3a6c.js"></script><link href="/stylesheets/app-b47225b500ad9782f7595481320e3a6c.css" media="screen" rel="stylesheet" type="text/css" /><link href="https://cocoapods.org/opensearch.xml" rel="search" title="CocoaPods" type="application/opensearchdescription+xml" /></head><body><nav class="navbar navbar-static-top" role="navigation"><section class="container"><div class="navbar-header"><button class="navbar-toggle" data-target=".navbar-header-collapse" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span><span class="glyphicon glyphicon-plus"></span></button><a class="navbar-brand" href="https://cocoapods.org"></a></div><div class="collapse navbar-collapse navbar-header-collapse"><ul class="nav navbar-nav navbar-right"><li><a href="https://cocoapods.org/about">About</a></li><li><a href="https://guides.cocoapods.org">Guides</a></li><li><a href="https://blog.cocoapods.org">Blog</a></li></ul></div></section></nav><section class="container"><article class="row" id="headline"><div class="col-lg-12 col-sm-12 col-xs-12"><h1>AFNetworking <span>4.0.1</span></h1></div></article></section><div id="content-wrapper"><section class="container" id="pod-page"><article class="row"><div class="pod_result"><div class="pod-metadata clearfix"></div><div class="sideline col-sm-3 col-xs-12 col-sm-push-9"><h1 class="visible-xs inline-headline"><a href="/pods/AFNetworking">AFNetworking</a> <span>4.0.1</span></h1><div class="close-expanded"><a href="#">&times;</a></div><h3></h3><table class="header"><tbody><tr><td> <span class="hidden-lg-span">Tests</span><span class="visible-lg-span">Tested</span>
+</td><td>✓</td></tr><tr><td> <span class="hidden-lg-span">Lang</span><span class="visible-lg-span">Language</span>
+</td><td> <span class="hidden-lg-span">Obj-C</span><span class="visible-lg-span">Objective C</span>
+</td></tr><tr><td>License</td><td> <a href="https://api.github.com/licenses/mit">MIT</a>
+</td></tr><tr><td> <span class="hidden-lg-span">Released</span><span class="visible-lg-span">Last Release</span>
+</td><td>Jan 2023</td></tr></tbody></table><p>Maintained by <a href="/owners/5">Kyle Fuller</a>, <a href="/owners/41">Mattt</a>, <a href="/owners/438">Jeff Kelley</a>, <a href="/owners/2804">Jon Shier</a>, <a href="/owners/3182">Kevin Harwood</a>, <a href="/owners/6364">Christian Noon</a>.</p><hr/><button class="btn" data-target="#installation_guide" data-toggle="modal" type="button">Installation Guide</button><div aria-hidden="true" aria-labelledby="installation_label" class="modal fade" id="installation_guide" role="dialog" tabindex="-1"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">&times</span></button><h4 class="modal-title" id="installation_label">Installation Guide for AFNetworking</h4></div><div class="modal-body"><p>You want to add <code>pod 'AFNetworking', '~> 4.0'</code> similar to the following to your Podfile:</p><pre><code>target 'MyApp' do
+  pod 'AFNetworking', '~> 4.0'
+end</code></pre><p>Then run a <code>pod install</code> inside your terminal, or from CocoaPods.app.</p><hr/><p>Alternatively to give it a test run, run the command:</p><p><code>pod try AFNetworking</code></p></div></div></div></div><hr/><ul class="links"><li><a href="https://github.com/CocoaPods/Specs/blob/master/Specs/a/7/5/AFNetworking/4.0.1/AFNetworking.podspec.json">See Podspec</a></li><li><a href="https://github.com/AFNetworking/AFNetworking">GitHub Repo</a></li><li><a href="https://cocoapods.org/pods/AFNetworking">Page on CocoaPods.org</a></li></ul></div><div class="readme-content col-sm-9 col-xs-12 col-sm-pull-3"><div class="inline-headline"><h1 class="hidden-xs"><a href="/pods/AFNetworking">AFNetworking</a> <span>4.0.1</span></h1></div><ul class="attribution"><li>By</li><li>Mattt Thompson</li><li class="twitter"><a href="https://twitter.com/AFNetworking">AFNetworking</a></li></ul><nav><ul><li class="github-link"><a class="hidden-xs" href="https://github.com/AFNetworking/AFNetworking">AFNetworking/AFNetworking</a><a class="visible-xs" href="https://github.com/AFNetworking/AFNetworking">GitHub Repo</a></li></ul></nav><div class="clearfix"></div><div class="deprecated"><a href="/pods/Alamofire">This library is deprecated, it is recommended you look at Alamofire.</a></div><ul class="nav nav-tabs" id="asset_switcher" role="tablist"><li class="active"><a aria-controls="README" class="media_node span" data-target="#readme" data-toggle="tab" href="#" id="readme_tab">OVERVIEW</a></li><li><a aria-controls="CHANGELOG" class="media_node span media_node span" data-target="#changelog_content" data-toggle="tabajax" href="/pods/AFNetworking/changelog" id="changelog_tab">CHANGELOG</a></li></ul><div class="tab-content"><div class="tab-pane active" id="readme"><div id="readme" class="md" data-path="README.md"><article class="markdown-body entry-content container-lg" itemprop="text"><p align="center" dir="auto">
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/a17b4fe76167f7782bc6e339f76543743422027dab002197bbccbfaa3aa10b6a/68747470733a2f2f7261772e6769746875622e636f6d2f41464e6574776f726b696e672f41464e6574776f726b696e672f6173736574732f61666e6574776f726b696e672d6c6f676f2e706e67"><img src="https://camo.githubusercontent.com/a17b4fe76167f7782bc6e339f76543743422027dab002197bbccbfaa3aa10b6a/68747470733a2f2f7261772e6769746875622e636f6d2f41464e6574776f726b696e672f41464e6574776f726b696e672f6173736574732f61666e6574776f726b696e672d6c6f676f2e706e67" alt="AFNetworking" title="AFNetworking" data-canonical-src="https://raw.github.com/AFNetworking/AFNetworking/assets/afnetworking-logo.png" style="max-width: 100%;"></a>
+</p>
+<p dir="auto"><a href="https://github.com/AFNetworking/AFNetworking/actions"><img src="https://github.com/AFNetworking/AFNetworking/workflows/AFNetworking%20CI/badge.svg?branch=master" alt="Build Status" style="max-width: 100%;"></a>
+<a href="https://img.shields.io/cocoapods/v/AFNetworking.svg" rel="nofollow"><img src="https://camo.githubusercontent.com/90e2784715a1181e71b58043133890bb13b674784ae8e320c425e537e91b406d/68747470733a2f2f696d672e736869656c64732e696f2f636f636f61706f64732f762f41464e6574776f726b696e672e737667" alt="CocoaPods Compatible" data-canonical-src="https://img.shields.io/cocoapods/v/AFNetworking.svg" style="max-width: 100%;"></a>
+<a href="https://github.com/Carthage/Carthage"><img src="https://camo.githubusercontent.com/c8961b92aa4c1cece705532f044860ab81846426578305a5e8d83c0f357de8c2/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f43617274686167652d636f6d70617469626c652d3442433531442e7376673f7374796c653d666c6174" alt="Carthage Compatible" data-canonical-src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" style="max-width: 100%;"></a>
+<a href="http://cocoadocs.org/docsets/AFNetworking" rel="nofollow"><img src="https://camo.githubusercontent.com/15b43da1165cac98631fc3fd1a1d827f86457ef4961621189153747020fe65d3/68747470733a2f2f696d672e736869656c64732e696f2f636f636f61706f64732f702f41464e6574776f726b696e672e7376673f7374796c653d666c6174" alt="Platform" data-canonical-src="https://img.shields.io/cocoapods/p/AFNetworking.svg?style=flat" style="max-width: 100%;"></a>
+<a href="http://twitter.com/AFNetworking" rel="nofollow"><img src="https://camo.githubusercontent.com/f3e6d08b417cf0f44f029dabf4b5d5aa1bd938808c580d9ccfd72b749e94ac8f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f747769747465722d4041464e6574776f726b696e672d626c75652e7376673f7374796c653d666c6174" alt="Twitter" data-canonical-src="https://img.shields.io/badge/twitter-@AFNetworking-blue.svg?style=flat" style="max-width: 100%;"></a></p>
+<p dir="auto">AFNetworking is a delightful networking library for iOS, macOS, watchOS, and tvOS. It's built on top of the <a href="https://developer.apple.com/documentation/foundation/url_loading_system" rel="nofollow">Foundation URL Loading System</a>, extending the powerful high-level networking abstractions built into Cocoa. It has a modular architecture with well-designed, feature-rich APIs that are a joy to use.</p>
+<p dir="auto">Perhaps the most important feature of all, however, is the amazing community of developers who use and contribute to AFNetworking every day. AFNetworking powers some of the most popular and critically-acclaimed apps on the iPhone, iPad, and Mac.</p>
+<h2 dir="auto"><a id="user-content-how-to-get-started" class="anchor" aria-hidden="true" href="#how-to-get-started"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>How To Get Started</h2>
+<ul dir="auto">
+<li><a href="https://github.com/AFNetworking/AFNetworking/archive/master.zip">Download AFNetworking</a> and try out the included Mac and iPhone example apps</li>
+<li>Read the <a href="https://github.com/AFNetworking/AFNetworking/wiki/Getting-Started-with-AFNetworking">"Getting Started" guide</a>, <a href="https://github.com/AFNetworking/AFNetworking/wiki/AFNetworking-FAQ">FAQ</a>, or <a href="https://github.com/AFNetworking/AFNetworking/wiki">other articles on the Wiki</a></li>
+</ul>
+<h2 dir="auto"><a id="user-content-communication" class="anchor" aria-hidden="true" href="#communication"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Communication</h2>
+<ul dir="auto">
+<li>If you <strong>need help</strong>, use <a href="http://stackoverflow.com/questions/tagged/afnetworking" rel="nofollow">Stack Overflow</a>. (Tag 'afnetworking')</li>
+<li>If you'd like to <strong>ask a general question</strong>, use <a href="http://stackoverflow.com/questions/tagged/afnetworking" rel="nofollow">Stack Overflow</a>.</li>
+<li>If you <strong>found a bug</strong>, <em>and can provide steps to reliably reproduce it</em>, open an issue.</li>
+<li>If you <strong>have a feature request</strong>, open an issue.</li>
+<li>If you <strong>want to contribute</strong>, submit a pull request.</li>
+</ul>
+<h2 dir="auto"><a id="user-content-installation" class="anchor" aria-hidden="true" href="#installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Installation</h2>
+<p dir="auto">AFNetworking supports multiple methods for installing the library in a project.</p>
+<h2 dir="auto"><a id="user-content-installation-with-cocoapods" class="anchor" aria-hidden="true" href="#installation-with-cocoapods"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Installation with CocoaPods</h2>
+<p dir="auto">To integrate AFNetworking into your Xcode project using CocoaPods, specify it in your <code>Podfile</code>:</p>
+<div class="highlight highlight-source-ruby notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="pod 'AFNetworking', '~&gt; 4.0'"><pre><span class="pl-en">pod</span> <span class="pl-s">'AFNetworking'</span><span class="pl-kos">,</span> <span class="pl-s">'~&gt; 4.0'</span></pre></div>
+<h3 dir="auto"><a id="user-content-installation-with-swift-package-manager" class="anchor" aria-hidden="true" href="#installation-with-swift-package-manager"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Installation with Swift Package Manager</h3>
+<p dir="auto">Once you have your Swift package set up, adding AFNetworking as a dependency is as easy as adding it to the <code>dependencies</code> value of your <code>Package.swift</code>.</p>
+<div class="highlight highlight-source-swift notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="dependencies: [
+    .package(url: &quot;https://github.com/AFNetworking/AFNetworking.git&quot;, .upToNextMajor(from: &quot;4.0.0&quot;))
+]"><pre>dependencies<span class="pl-k">:</span> [
+    .<span class="pl-c1">package</span>(<span class="pl-c1">url</span>: <span class="pl-s"><span class="pl-pds">"</span>https://github.com/AFNetworking/AFNetworking.git<span class="pl-pds">"</span></span>, .<span class="pl-c1">upToNextMajor</span>(<span class="pl-c1">from</span>: <span class="pl-s"><span class="pl-pds">"</span>4.0.0<span class="pl-pds">"</span></span>))
+]</pre></div>
+<blockquote>
+<p dir="auto">Note: AFNetworking's Swift package does not include it's UIKit extensions.</p>
+</blockquote>
+<h3 dir="auto"><a id="user-content-installation-with-carthage" class="anchor" aria-hidden="true" href="#installation-with-carthage"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Installation with Carthage</h3>
+<p dir="auto"><a href="https://github.com/Carthage/Carthage">Carthage</a> is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks. To integrate AFNetworking, add the following to your <code>Cartfile</code>.</p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="github &quot;AFNetworking/AFNetworking&quot; ~&gt; 4.0"><pre lang="ogdl" class="notranslate"><code>github "AFNetworking/AFNetworking" ~&gt; 4.0
+</code></pre></div>
+<h2 dir="auto"><a id="user-content-requirements" class="anchor" aria-hidden="true" href="#requirements"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Requirements</h2>
+<table>
+<thead>
+<tr>
+<th align="center">AFNetworking Version</th>
+<th align="center">Minimum iOS Target</th>
+<th align="center">Minimum macOS Target</th>
+<th align="center">Minimum watchOS Target</th>
+<th align="center">Minimum tvOS Target</th>
+<th align="center">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">4.x</td>
+<td align="center">iOS 9</td>
+<td align="center">macOS 10.10</td>
+<td align="center">watchOS 2.0</td>
+<td align="center">tvOS 9.0</td>
+<td align="center">Xcode 11+ is required.</td>
+</tr>
+<tr>
+<td align="center">3.x</td>
+<td align="center">iOS 7</td>
+<td align="center">OS X 10.9</td>
+<td align="center">watchOS 2.0</td>
+<td align="center">tvOS 9.0</td>
+<td align="center">Xcode 7+ is required. <code>NSURLConnectionOperation</code> support has been removed.</td>
+</tr>
+<tr>
+<td align="center">2.6 -&gt; 2.6.3</td>
+<td align="center">iOS 7</td>
+<td align="center">OS X 10.9</td>
+<td align="center">watchOS 2.0</td>
+<td align="center">n/a</td>
+<td align="center">Xcode 7+ is required.</td>
+</tr>
+<tr>
+<td align="center">2.0 -&gt; 2.5.4</td>
+<td align="center">iOS 6</td>
+<td align="center">OS X 10.8</td>
+<td align="center">n/a</td>
+<td align="center">n/a</td>
+<td align="center">Xcode 5+ is required. <code>NSURLSession</code> subspec requires iOS 7 or OS X 10.9.</td>
+</tr>
+<tr>
+<td align="center">1.x</td>
+<td align="center">iOS 5</td>
+<td align="center">Mac OS X 10.7</td>
+<td align="center">n/a</td>
+<td align="center">n/a</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">0.10.x</td>
+<td align="center">iOS 4</td>
+<td align="center">Mac OS X 10.6</td>
+<td align="center">n/a</td>
+<td align="center">n/a</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<p dir="auto">(macOS projects must support <a href="https://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Articles/ocrtVersionsPlatforms.html" rel="nofollow">64-bit with modern Cocoa runtime</a>).</p>
+<blockquote>
+<p dir="auto">Programming in Swift? Try <a href="https://github.com/Alamofire/Alamofire">Alamofire</a> for a more conventional set of APIs.</p>
+</blockquote>
+<h2 dir="auto"><a id="user-content-architecture" class="anchor" aria-hidden="true" href="#architecture"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Architecture</h2>
+<h3 dir="auto"><a id="user-content-nsurlsession" class="anchor" aria-hidden="true" href="#nsurlsession"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>NSURLSession</h3>
+<ul dir="auto">
+<li><code>AFURLSessionManager</code></li>
+<li><code>AFHTTPSessionManager</code></li>
+</ul>
+<h3 dir="auto"><a id="user-content-serialization" class="anchor" aria-hidden="true" href="#serialization"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Serialization</h3>
+<ul dir="auto">
+<li><code>&lt;AFURLRequestSerialization&gt;</code>
+<ul dir="auto">
+<li><code>AFHTTPRequestSerializer</code></li>
+<li><code>AFJSONRequestSerializer</code></li>
+<li><code>AFPropertyListRequestSerializer</code></li>
+</ul>
+</li>
+<li><code>&lt;AFURLResponseSerialization&gt;</code>
+<ul dir="auto">
+<li><code>AFHTTPResponseSerializer</code></li>
+<li><code>AFJSONResponseSerializer</code></li>
+<li><code>AFXMLParserResponseSerializer</code></li>
+<li><code>AFXMLDocumentResponseSerializer</code> <em>(macOS)</em></li>
+<li><code>AFPropertyListResponseSerializer</code></li>
+<li><code>AFImageResponseSerializer</code></li>
+<li><code>AFCompoundResponseSerializer</code></li>
+</ul>
+</li>
+</ul>
+<h3 dir="auto"><a id="user-content-additional-functionality" class="anchor" aria-hidden="true" href="#additional-functionality"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Additional Functionality</h3>
+<ul dir="auto">
+<li><code>AFSecurityPolicy</code></li>
+<li><code>AFNetworkReachabilityManager</code></li>
+</ul>
+<h2 dir="auto"><a id="user-content-usage" class="anchor" aria-hidden="true" href="#usage"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Usage</h2>
+<h3 dir="auto"><a id="user-content-afurlsessionmanager" class="anchor" aria-hidden="true" href="#afurlsessionmanager"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>AFURLSessionManager</h3>
+<p dir="auto"><code>AFURLSessionManager</code> creates and manages an <code>NSURLSession</code> object based on a specified <code>NSURLSessionConfiguration</code> object, which conforms to <code>&lt;NSURLSessionTaskDelegate&gt;</code>, <code>&lt;NSURLSessionDataDelegate&gt;</code>, <code>&lt;NSURLSessionDownloadDelegate&gt;</code>, and <code>&lt;NSURLSessionDelegate&gt;</code>.</p>
+<h4 dir="auto"><a id="user-content-creating-a-download-task" class="anchor" aria-hidden="true" href="#creating-a-download-task"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Creating a Download Task</h4>
+<div class="highlight highlight-source-objc notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
+AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:configuration];
+
+NSURL *URL = [NSURL URLWithString:@&quot;http://example.com/download.zip&quot;];
+NSURLRequest *request = [NSURLRequest requestWithURL:URL];
+
+NSURLSessionDownloadTask *downloadTask = [manager downloadTaskWithRequest:request progress:nil destination:^NSURL *(NSURL *targetPath, NSURLResponse *response) {
+    NSURL *documentsDirectoryURL = [[NSFileManager defaultManager] URLForDirectory:NSDocumentDirectory inDomain:NSUserDomainMask appropriateForURL:nil create:NO error:nil];
+    return [documentsDirectoryURL URLByAppendingPathComponent:[response suggestedFilename]];
+} completionHandler:^(NSURLResponse *response, NSURL *filePath, NSError *error) {
+    NSLog(@&quot;File downloaded to: %@&quot;, filePath);
+}];
+[downloadTask resume];"><pre><span class="pl-c1">NSURLSessionConfiguration</span> *configuration = [<span class="pl-c1">NSURLSessionConfiguration</span> <span class="pl-c1">defaultSessionConfiguration</span>];
+AFURLSessionManager *manager = [[AFURLSessionManager <span class="pl-c1">alloc</span>] <span class="pl-c1">initWithSessionConfiguration:</span>configuration];
+
+<span class="pl-c1">NSURL</span> *URL = [<span class="pl-c1">NSURL</span> <span class="pl-c1">URLWithString:</span><span class="pl-s"><span class="pl-pds">@"</span>http://example.com/download.zip<span class="pl-pds">"</span></span>];
+<span class="pl-c1">NSURLRequest</span> *request = [<span class="pl-c1">NSURLRequest</span> <span class="pl-c1">requestWithURL:</span>URL];
+
+<span class="pl-c1">NSURLSessionDownloadTask</span> *downloadTask = [manager <span class="pl-c1">downloadTaskWithRequest:</span>request <span class="pl-c1">progress:</span><span class="pl-c1">nil</span> <span class="pl-c1">destination:</span>^<span class="pl-c1">NSURL</span> *(<span class="pl-c1">NSURL</span> *targetPath, <span class="pl-c1">NSURLResponse</span> *response) {
+    <span class="pl-c1">NSURL</span> *documentsDirectoryURL = [[<span class="pl-c1">NSFileManager</span> <span class="pl-c1">defaultManager</span>] <span class="pl-c1">URLForDirectory:</span>NSDocumentDirectory <span class="pl-c1">inDomain:</span>NSUserDomainMask <span class="pl-c1">appropriateForURL:</span><span class="pl-c1">nil</span> <span class="pl-c1">create:</span><span class="pl-c1">NO</span> <span class="pl-c1">error:</span><span class="pl-c1">nil</span>];
+    <span class="pl-k">return</span> [documentsDirectoryURL <span class="pl-c1">URLByAppendingPathComponent:</span>[response <span class="pl-c1">suggestedFilename</span>]];
+} <span class="pl-c1">completionHandler:</span>^(<span class="pl-c1">NSURLResponse</span> *response, <span class="pl-c1">NSURL</span> *filePath, <span class="pl-c1">NSError</span> *error) {
+    <span class="pl-c1">NSLog</span>(<span class="pl-s"><span class="pl-pds">@"</span>File downloaded to: <span class="pl-c1">%@</span><span class="pl-pds">"</span></span>, filePath);
+}];
+[downloadTask <span class="pl-c1">resume</span>];</pre></div>
+<h4 dir="auto"><a id="user-content-creating-an-upload-task" class="anchor" aria-hidden="true" href="#creating-an-upload-task"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Creating an Upload Task</h4>
+<div class="highlight highlight-source-objc notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
+AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:configuration];
+
+NSURL *URL = [NSURL URLWithString:@&quot;http://example.com/upload&quot;];
+NSURLRequest *request = [NSURLRequest requestWithURL:URL];
+
+NSURL *filePath = [NSURL fileURLWithPath:@&quot;file://path/to/image.png&quot;];
+NSURLSessionUploadTask *uploadTask = [manager uploadTaskWithRequest:request fromFile:filePath progress:nil completionHandler:^(NSURLResponse *response, id responseObject, NSError *error) {
+    if (error) {
+        NSLog(@&quot;Error: %@&quot;, error);
+    } else {
+        NSLog(@&quot;Success: %@ %@&quot;, response, responseObject);
+    }
+}];
+[uploadTask resume];"><pre><span class="pl-c1">NSURLSessionConfiguration</span> *configuration = [<span class="pl-c1">NSURLSessionConfiguration</span> <span class="pl-c1">defaultSessionConfiguration</span>];
+AFURLSessionManager *manager = [[AFURLSessionManager <span class="pl-c1">alloc</span>] <span class="pl-c1">initWithSessionConfiguration:</span>configuration];
+
+<span class="pl-c1">NSURL</span> *URL = [<span class="pl-c1">NSURL</span> <span class="pl-c1">URLWithString:</span><span class="pl-s"><span class="pl-pds">@"</span>http://example.com/upload<span class="pl-pds">"</span></span>];
+<span class="pl-c1">NSURLRequest</span> *request = [<span class="pl-c1">NSURLRequest</span> <span class="pl-c1">requestWithURL:</span>URL];
+
+<span class="pl-c1">NSURL</span> *filePath = [<span class="pl-c1">NSURL</span> <span class="pl-c1">fileURLWithPath:</span><span class="pl-s"><span class="pl-pds">@"</span>file://path/to/image.png<span class="pl-pds">"</span></span>];
+<span class="pl-c1">NSURLSessionUploadTask</span> *uploadTask = [manager <span class="pl-c1">uploadTaskWithRequest:</span>request <span class="pl-c1">fromFile:</span>filePath <span class="pl-c1">progress:</span><span class="pl-c1">nil</span> <span class="pl-c1">completionHandler:</span>^(<span class="pl-c1">NSURLResponse</span> *response, <span class="pl-c1">id</span> responseObject, <span class="pl-c1">NSError</span> *error) {
+    <span class="pl-k">if</span> (error) {
+        <span class="pl-c1">NSLog</span>(<span class="pl-s"><span class="pl-pds">@"</span>Error: <span class="pl-c1">%@</span><span class="pl-pds">"</span></span>, error);
+    } <span class="pl-k">else</span> {
+        <span class="pl-c1">NSLog</span>(<span class="pl-s"><span class="pl-pds">@"</span>Success: <span class="pl-c1">%@</span> <span class="pl-c1">%@</span><span class="pl-pds">"</span></span>, response, responseObject);
+    }
+}];
+[uploadTask <span class="pl-c1">resume</span>];</pre></div>
+<h4 dir="auto"><a id="user-content-creating-an-upload-task-for-a-multi-part-request-with-progress" class="anchor" aria-hidden="true" href="#creating-an-upload-task-for-a-multi-part-request-with-progress"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Creating an Upload Task for a Multi-Part Request, with Progress</h4>
+<div class="highlight highlight-source-objc notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="NSMutableURLRequest *request = [[AFHTTPRequestSerializer serializer] multipartFormRequestWithMethod:@&quot;POST&quot; URLString:@&quot;http://example.com/upload&quot; parameters:nil constructingBodyWithBlock:^(id&lt;AFMultipartFormData&gt; formData) {
+        [formData appendPartWithFileURL:[NSURL fileURLWithPath:@&quot;file://path/to/image.jpg&quot;] name:@&quot;file&quot; fileName:@&quot;filename.jpg&quot; mimeType:@&quot;image/jpeg&quot; error:nil];
+    } error:nil];
+
+AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
+
+NSURLSessionUploadTask *uploadTask;
+uploadTask = [manager
+              uploadTaskWithStreamedRequest:request
+              progress:^(NSProgress * _Nonnull uploadProgress) {
+                  // This is not called back on the main queue.
+                  // You are responsible for dispatching to the main queue for UI updates
+                  dispatch_async(dispatch_get_main_queue(), ^{
+                      //Update the progress view
+                      [progressView setProgress:uploadProgress.fractionCompleted];
+                  });
+              }
+              completionHandler:^(NSURLResponse * _Nonnull response, id  _Nullable responseObject, NSError * _Nullable error) {
+                  if (error) {
+                      NSLog(@&quot;Error: %@&quot;, error);
+                  } else {
+                      NSLog(@&quot;%@ %@&quot;, response, responseObject);
+                  }
+              }];
+
+[uploadTask resume];"><pre><span class="pl-c1">NSMutableURLRequest</span> *request = [[AFHTTPRequestSerializer <span class="pl-c1">serializer</span>] <span class="pl-c1">multipartFormRequestWithMethod:</span><span class="pl-s"><span class="pl-pds">@"</span>POST<span class="pl-pds">"</span></span> <span class="pl-c1">URLString:</span><span class="pl-s"><span class="pl-pds">@"</span>http://example.com/upload<span class="pl-pds">"</span></span> <span class="pl-c1">parameters:</span><span class="pl-c1">nil</span> <span class="pl-c1">constructingBodyWithBlock:</span>^(<span class="pl-k">id</span>&lt;AFMultipartFormData&gt; formData) {
+        [formData <span class="pl-c1">appendPartWithFileURL:</span>[<span class="pl-c1">NSURL</span> <span class="pl-c1">fileURLWithPath:</span><span class="pl-s"><span class="pl-pds">@"</span>file://path/to/image.jpg<span class="pl-pds">"</span></span>] <span class="pl-c1">name:</span><span class="pl-s"><span class="pl-pds">@"</span>file<span class="pl-pds">"</span></span> <span class="pl-c1">fileName:</span><span class="pl-s"><span class="pl-pds">@"</span>filename.jpg<span class="pl-pds">"</span></span> <span class="pl-c1">mimeType:</span><span class="pl-s"><span class="pl-pds">@"</span>image/jpeg<span class="pl-pds">"</span></span> <span class="pl-c1">error:</span><span class="pl-c1">nil</span>];
+    } <span class="pl-c1">error:</span><span class="pl-c1">nil</span>];
+
+AFURLSessionManager *manager = [[AFURLSessionManager <span class="pl-c1">alloc</span>] <span class="pl-c1">initWithSessionConfiguration:</span>[<span class="pl-c1">NSURLSessionConfiguration</span> <span class="pl-c1">defaultSessionConfiguration</span>]];
+
+<span class="pl-c1">NSURLSessionUploadTask</span> *uploadTask;
+uploadTask = [manager
+              <span class="pl-c1">uploadTaskWithStreamedRequest:</span>request
+              <span class="pl-c1">progress:</span>^(<span class="pl-c1">NSProgress</span> * _Nonnull uploadProgress) {
+                  <span class="pl-c"><span class="pl-c">//</span> This is not called back on the main queue.</span>
+                  <span class="pl-c"><span class="pl-c">//</span> You are responsible for dispatching to the main queue for UI updates</span>
+                  <span class="pl-c1">dispatch_async</span>(<span class="pl-c1">dispatch_get_main_queue</span>(), ^{
+                      <span class="pl-c"><span class="pl-c">//</span>Update the progress view</span>
+                      [progressView <span class="pl-c1">setProgress:</span>uploadProgress.fractionCompleted];
+                  });
+              }
+              <span class="pl-c1">completionHandler:</span>^(<span class="pl-c1">NSURLResponse</span> * _Nonnull response, <span class="pl-c1">id</span>  _Nullable responseObject, <span class="pl-c1">NSError</span> * _Nullable error) {
+                  <span class="pl-k">if</span> (error) {
+                      <span class="pl-c1">NSLog</span>(<span class="pl-s"><span class="pl-pds">@"</span>Error: <span class="pl-c1">%@</span><span class="pl-pds">"</span></span>, error);
+                  } <span class="pl-k">else</span> {
+                      <span class="pl-c1">NSLog</span>(<span class="pl-s"><span class="pl-pds">@"</span><span class="pl-c1">%@</span> <span class="pl-c1">%@</span><span class="pl-pds">"</span></span>, response, responseObject);
+                  }
+              }];
+
+[uploadTask <span class="pl-c1">resume</span>];</pre></div>
+<h4 dir="auto"><a id="user-content-creating-a-data-task" class="anchor" aria-hidden="true" href="#creating-a-data-task"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Creating a Data Task</h4>
+<div class="highlight highlight-source-objc notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
+AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:configuration];
+
+NSURL *URL = [NSURL URLWithString:@&quot;http://httpbin.org/get&quot;];
+NSURLRequest *request = [NSURLRequest requestWithURL:URL];
+
+NSURLSessionDataTask *dataTask = [manager dataTaskWithRequest:request completionHandler:^(NSURLResponse *response, id responseObject, NSError *error) {
+    if (error) {
+        NSLog(@&quot;Error: %@&quot;, error);
+    } else {
+        NSLog(@&quot;%@ %@&quot;, response, responseObject);
+    }
+}];
+[dataTask resume];"><pre><span class="pl-c1">NSURLSessionConfiguration</span> *configuration = [<span class="pl-c1">NSURLSessionConfiguration</span> <span class="pl-c1">defaultSessionConfiguration</span>];
+AFURLSessionManager *manager = [[AFURLSessionManager <span class="pl-c1">alloc</span>] <span class="pl-c1">initWithSessionConfiguration:</span>configuration];
+
+<span class="pl-c1">NSURL</span> *URL = [<span class="pl-c1">NSURL</span> <span class="pl-c1">URLWithString:</span><span class="pl-s"><span class="pl-pds">@"</span>http://httpbin.org/get<span class="pl-pds">"</span></span>];
+<span class="pl-c1">NSURLRequest</span> *request = [<span class="pl-c1">NSURLRequest</span> <span class="pl-c1">requestWithURL:</span>URL];
+
+<span class="pl-c1">NSURLSessionDataTask</span> *dataTask = [manager <span class="pl-c1">dataTaskWithRequest:</span>request <span class="pl-c1">completionHandler:</span>^(<span class="pl-c1">NSURLResponse</span> *response, <span class="pl-c1">id</span> responseObject, <span class="pl-c1">NSError</span> *error) {
+    <span class="pl-k">if</span> (error) {
+        <span class="pl-c1">NSLog</span>(<span class="pl-s"><span class="pl-pds">@"</span>Error: <span class="pl-c1">%@</span><span class="pl-pds">"</span></span>, error);
+    } <span class="pl-k">else</span> {
+        <span class="pl-c1">NSLog</span>(<span class="pl-s"><span class="pl-pds">@"</span><span class="pl-c1">%@</span> <span class="pl-c1">%@</span><span class="pl-pds">"</span></span>, response, responseObject);
+    }
+}];
+[dataTask <span class="pl-c1">resume</span>];</pre></div>
+<hr>
+<h3 dir="auto"><a id="user-content-request-serialization" class="anchor" aria-hidden="true" href="#request-serialization"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Request Serialization</h3>
+<p dir="auto">Request serializers create requests from URL strings, encoding parameters as either a query string or HTTP body.</p>
+<div class="highlight highlight-source-objc notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="NSString *URLString = @&quot;http://example.com&quot;;
+NSDictionary *parameters = @{@&quot;foo&quot;: @&quot;bar&quot;, @&quot;baz&quot;: @[@1, @2, @3]};"><pre><span class="pl-c1">NSString</span> *URLString = <span class="pl-s"><span class="pl-pds">@"</span>http://example.com<span class="pl-pds">"</span></span>;
+<span class="pl-c1">NSDictionary</span> *parameters = @{<span class="pl-s"><span class="pl-pds">@"</span>foo<span class="pl-pds">"</span></span>: <span class="pl-s"><span class="pl-pds">@"</span>bar<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">@"</span>baz<span class="pl-pds">"</span></span>: @[@<span class="pl-c1">1</span>, @<span class="pl-c1">2</span>, @<span class="pl-c1">3</span>]};</pre></div>
+<h4 dir="auto"><a id="user-content-query-string-parameter-encoding" class="anchor" aria-hidden="true" href="#query-string-parameter-encoding"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Query String Parameter Encoding</h4>
+<div class="highlight highlight-source-objc notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="[[AFHTTPRequestSerializer serializer] requestWithMethod:@&quot;GET&quot; URLString:URLString parameters:parameters error:nil];"><pre>[[AFHTTPRequestSerializer <span class="pl-c1">serializer</span>] <span class="pl-c1">requestWithMethod:</span><span class="pl-s"><span class="pl-pds">@"</span>GET<span class="pl-pds">"</span></span> <span class="pl-c1">URLString:</span>URLString <span class="pl-c1">parameters:</span>parameters <span class="pl-c1">error:</span><span class="pl-c1">nil</span>];</pre></div>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="GET http://example.com?foo=bar&amp;baz[]=1&amp;baz[]=2&amp;baz[]=3"><pre class="notranslate"><code>GET http://example.com?foo=bar&amp;baz[]=1&amp;baz[]=2&amp;baz[]=3
+</code></pre></div>
+<h4 dir="auto"><a id="user-content-url-form-parameter-encoding" class="anchor" aria-hidden="true" href="#url-form-parameter-encoding"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>URL Form Parameter Encoding</h4>
+<div class="highlight highlight-source-objc notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="[[AFHTTPRequestSerializer serializer] requestWithMethod:@&quot;POST&quot; URLString:URLString parameters:parameters error:nil];"><pre>[[AFHTTPRequestSerializer <span class="pl-c1">serializer</span>] <span class="pl-c1">requestWithMethod:</span><span class="pl-s"><span class="pl-pds">@"</span>POST<span class="pl-pds">"</span></span> <span class="pl-c1">URLString:</span>URLString <span class="pl-c1">parameters:</span>parameters <span class="pl-c1">error:</span><span class="pl-c1">nil</span>];</pre></div>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="POST http://example.com/
+Content-Type: application/x-www-form-urlencoded
+
+foo=bar&amp;baz[]=1&amp;baz[]=2&amp;baz[]=3"><pre class="notranslate"><code>POST http://example.com/
+Content-Type: application/x-www-form-urlencoded
+
+foo=bar&amp;baz[]=1&amp;baz[]=2&amp;baz[]=3
+</code></pre></div>
+<h4 dir="auto"><a id="user-content-json-parameter-encoding" class="anchor" aria-hidden="true" href="#json-parameter-encoding"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>JSON Parameter Encoding</h4>
+<div class="highlight highlight-source-objc notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="[[AFJSONRequestSerializer serializer] requestWithMethod:@&quot;POST&quot; URLString:URLString parameters:parameters error:nil];"><pre>[[AFJSONRequestSerializer <span class="pl-c1">serializer</span>] <span class="pl-c1">requestWithMethod:</span><span class="pl-s"><span class="pl-pds">@"</span>POST<span class="pl-pds">"</span></span> <span class="pl-c1">URLString:</span>URLString <span class="pl-c1">parameters:</span>parameters <span class="pl-c1">error:</span><span class="pl-c1">nil</span>];</pre></div>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="POST http://example.com/
+Content-Type: application/json
+
+{&quot;foo&quot;: &quot;bar&quot;, &quot;baz&quot;: [1,2,3]}"><pre class="notranslate"><code>POST http://example.com/
+Content-Type: application/json
+
+{"foo": "bar", "baz": [1,2,3]}
+</code></pre></div>
+<hr>
+<h3 dir="auto"><a id="user-content-network-reachability-manager" class="anchor" aria-hidden="true" href="#network-reachability-manager"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Network Reachability Manager</h3>
+<p dir="auto"><code>AFNetworkReachabilityManager</code> monitors the reachability of domains, and addresses for both WWAN and WiFi network interfaces.</p>
+<ul dir="auto">
+<li>Do not use Reachability to determine if the original request should be sent.
+<ul dir="auto">
+<li>You should try to send it.</li>
+</ul>
+</li>
+<li>You can use Reachability to determine when a request should be automatically retried.
+<ul dir="auto">
+<li>Although it may still fail, a Reachability notification that the connectivity is available is a good time to retry something.</li>
+</ul>
+</li>
+<li>Network reachability is a useful tool for determining why a request might have failed.
+<ul dir="auto">
+<li>After a network request has failed, telling the user they're offline is better than giving them a more technical but accurate error, such as "request timed out."</li>
+</ul>
+</li>
+</ul>
+<p dir="auto">See also <a href="https://developer.apple.com/videos/play/wwdc2012-706/" rel="nofollow">WWDC 2012 session 706, "Networking Best Practices."</a>.</p>
+<h4 dir="auto"><a id="user-content-shared-network-reachability" class="anchor" aria-hidden="true" href="#shared-network-reachability"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Shared Network Reachability</h4>
+<div class="highlight highlight-source-objc notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="[[AFNetworkReachabilityManager sharedManager] setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+    NSLog(@&quot;Reachability: %@&quot;, AFStringFromNetworkReachabilityStatus(status));
+}];
+
+[[AFNetworkReachabilityManager sharedManager] startMonitoring];"><pre>[[AFNetworkReachabilityManager <span class="pl-c1">sharedManager</span>] <span class="pl-c1">setReachabilityStatusChangeBlock:</span>^(AFNetworkReachabilityStatus status) {
+    <span class="pl-c1">NSLog</span>(<span class="pl-s"><span class="pl-pds">@"</span>Reachability: <span class="pl-c1">%@</span><span class="pl-pds">"</span></span>, <span class="pl-c1">AFStringFromNetworkReachabilityStatus</span>(status));
+}];
+
+[[AFNetworkReachabilityManager <span class="pl-c1">sharedManager</span>] <span class="pl-c1">startMonitoring</span>];</pre></div>
+<hr>
+<h3 dir="auto"><a id="user-content-security-policy" class="anchor" aria-hidden="true" href="#security-policy"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Security Policy</h3>
+<p dir="auto"><code>AFSecurityPolicy</code> evaluates server trust against pinned X.509 certificates and public keys over secure connections.</p>
+<p dir="auto">Adding pinned SSL certificates to your app helps prevent man-in-the-middle attacks and other vulnerabilities. Applications dealing with sensitive customer data or financial information are strongly encouraged to route all communication over an HTTPS connection with SSL pinning configured and enabled.</p>
+<h4 dir="auto"><a id="user-content-allowing-invalid-ssl-certificates" class="anchor" aria-hidden="true" href="#allowing-invalid-ssl-certificates"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Allowing Invalid SSL Certificates</h4>
+<div class="highlight highlight-source-objc notranslate position-relative overflow-auto" dir="auto" data-snippet-clipboard-copy-content="AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+manager.securityPolicy.allowInvalidCertificates = YES; // not recommended for production"><pre>AFHTTPSessionManager *manager = [AFHTTPSessionManager <span class="pl-c1">manager</span>];
+manager.securityPolicy.allowInvalidCertificates = <span class="pl-c1">YES</span>; <span class="pl-c"><span class="pl-c">//</span> not recommended for production</span></pre></div>
+<hr>
+<h2 dir="auto"><a id="user-content-unit-tests" class="anchor" aria-hidden="true" href="#unit-tests"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Unit Tests</h2>
+<p dir="auto">AFNetworking includes a suite of unit tests within the Tests subdirectory. These tests can be run simply be executed the test action on the platform framework you would like to test.</p>
+<h2 dir="auto"><a id="user-content-credits" class="anchor" aria-hidden="true" href="#credits"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Credits</h2>
+<p dir="auto">AFNetworking is owned and maintained by the <a href="http://alamofire.org" rel="nofollow">Alamofire Software Foundation</a>.</p>
+<p dir="auto">AFNetworking was originally created by <a href="https://github.com/sco/">Scott Raymond</a> and <a href="https://github.com/mattt/">Mattt Thompson</a> in the development of <a href="http://en.wikipedia.org/wiki/Gowalla" rel="nofollow">Gowalla for iPhone</a>.</p>
+<p dir="auto">AFNetworking's logo was designed by <a href="http://www.alandefibaugh.com/" rel="nofollow">Alan Defibaugh</a>.</p>
+<p dir="auto">And most of all, thanks to AFNetworking's <a href="https://github.com/AFNetworking/AFNetworking/contributors">growing list of contributors</a>.</p>
+<h3 dir="auto"><a id="user-content-security-disclosure" class="anchor" aria-hidden="true" href="#security-disclosure"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Security Disclosure</h3>
+<p dir="auto">If you believe you have identified a security vulnerability with AFNetworking, you should report it as soon as possible via email to <a href="/cdn-cgi/l/email-protection#2d5e484e585f4459546d4c414c40424b445f4803425f4a"><span class="__cf_email__" data-cfemail="6310060016110a171a23020f020e0c050a11064d0c1104">[email&#160;protected]</span></a>. Please do not post it to a public issue tracker.</p>
+<h2 dir="auto"><a id="user-content-license" class="anchor" aria-hidden="true" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>License</h2>
+<p dir="auto">AFNetworking is released under the MIT license. See <a href="https://github.com/AFNetworking/AFNetworking/blob/master/LICENSE">LICENSE</a> for details.</p>
+</article></div></div><div class="tab-pane" id="changelog_content"></div></div></div><div class="clearfix"></div></div></article></section></div><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>$copy_to_clipboard = $('ol.results img.copy')
+
+var clip = new ZeroClipboard(
+  $copy_to_clipboard, {
+    moviePath: "/flashes/ZeroClipboard.swf",
+    forceHandCursor: true
+  }
+);
+
+clip.on( 'noflash', function ( client, args ) {
+
+  // provide a recursive wait method
+  // that checks for the hover on the popover/clipboard
+  // before hiding so you can select text
+
+  function closePopoverForNode(node){
+    setTimeout(function() {
+      if (!$(node).is(':hover') && !$(".popover:hover").length) {
+        $(node).popover("hide")
+      } else {
+        closePopoverForNode(node)
+      }
+    }, 500);
+  }
+
+  // With no flash you should be able to select the text
+  // in the popover
+
+  $copy_to_clipboard.popover({
+    trigger: "manual",
+    container: "body"
+
+  }).on("click", function(e) {
+    e.preventDefault();
+
+  }).on("mouseenter", function() {
+    $(this).popover("show");
+    $(".popover input").select()
+
+  }).on("mouseleave", function() {
+    closePopoverForNode(this)
+  });
+});
+
+// When Flash works, jusst do a normal popover
+clip.on("load", function(client) {
+
+  client.on( "complete", function(client, args) {
+    $("h4.has-flash").text("Saved to clipboard");
+    $(".popover").addClass("saved")
+  });
+
+  clip.on( 'mouseover', function ( client, args ) {
+    $(this).popover('show')
+  });
+
+  clip.on( 'mouseout', function ( client, args ) {
+    $(this).popover('hide')
+  });
+});
+
+// When the page loads up check for a #changelog and load the changelog instead of the README if possible
+$(document).ready(function() {
+  if ($("#asset_switcher").length == 0) { return }
+  if (location.hash == "#changelog") {
+    $("#changelog_tab").click()
+  }
+
+  // Make it easy to get a changelog URL for C+Ping
+  $('#asset_switcher a').on('shown.bs.tab', function (e) {
+    var is_changelog = $(e.target).data("target") == "#changelog_content"
+    var new_hash = (is_changelog) ? "#changelog" : ""
+    var current_url = window.location.toString().split('#')[0]
+    history.replaceState(null, null, current_url + new_hash)
+  })
+})</script><div class="clearfix"></div><footer class="page-footer"><section class="container"><div class="row"><article class="col-md-8 col-lg-8 col-sm-12 col-md-offset-2 col-lg-offset-2 col-xs-12"><h4>CocoaPods is a project from</h4><p class="contributors"> <a href="https://twitter.com/dnkoutso">Dimitris Koutsogiorgas</a>, <a href="https://dani.builds.terrible.systems/">Danielle Lancashire</a>, <a href="https://github.com/amorde">Eric Amorde</a>, <a href="https://orta.io">Orta Therox</a>, <a href="https://github.com/paulb777">Paul Beusterien</a>, <a href="https://segiddins.me">Samuel Giddins</a>, and <a href="https://cocoapods.org/about#team">The CocoaPods Dev Team</a> with contributions from <a href="https://github.com/CocoaPods/Specs/graphs/contributors">many, many others</a>.</p><h4>Lovingly sponsored by</h4><p class="sponsors"><a href="http://artsy.net">Artsy</a>, <a href="http://www.usebutton.com">Button</a>, <a href="http://www.capitalone.io">Capital One</a>, <a href="https://circleci.com">CircleCI</a>, <a href="http://discontinuity.eu">Discontinuity</a>,
+<a href="https://www.emergetools.com">Emerge Tools</a>, <a href="http://www.fngtps.com">Fingertips</a>, <a href="https://developers.google.com">Google</a>, <a href="https://www.heroku.com">Heroku</a>, <a href="https://www.jsdelivr.com">jsDelivr</a>, <a href="https://realm.io">Realm</a>, <a href="https://pspdfkit.com/">PSPDFKit</a>, <a href="http://www.rubymotion.com">RubyMotion</a>, <a href="https://www.sauspiel.de">Sauspiel</a>, <a href="https://www.slack.com">Slack</a>, <a href="https://www.soundcloud.com">SoundCloud</a>, <a href="https://www.stripe.com">Stripe</a>, <a href="https://www.squareup.com">Square</a>, and <a href="http://www.technologyastronauts.ch">Technology&nbsp;Astronauts</a>.</p></article></div></section></footer><footer class="footer-links"><section class="container"><div class="row"><article class="col-md-8 col-lg-8 col-sm-12 col-md-offset-2 col-lg-offset-2 col-xs-12"><a class="cocoapods-small-logo" href="https://cocoapods.org"></a><ul><li class="col-md-3 col-sm-3 col-xs-6"><a href="https://guides.cocoapods.org/using/troubleshooting.html">Support</a></li><li class="col-md-3 col-sm-3 col-xs-6"><a href="https://github.com/CocoaPods/CocoaPods">GitHub Repo</a></li><li class="col-md-3 col-sm-3 col-xs-6"><a href="https://status.cocoapods.org">Web Properties Status</a></li><li class="col-md-3 col-sm-3 col-xs-6"><a href="https://twitter.com/CocoaPods">@CocoaPods</a></li><li class="col-md-3 col-sm-3 col-xs-6"><a href="http://groups.google.com/group/cocoapods">Mailing List</a></li><li class="col-md-3 col-sm-3 col-xs-6"><a href="https://cocoapods.org/about"><span class="visible-lg-span">CocoaPods</span> Dev Team</a></li><li class="col-md-3 col-sm-3 col-xs-6"><a href="https://guides.cocoapods.org/syntax/podfile.html">Podfile Doc<span class="hidden-lg-span">s</span><span class="visible-lg-span">umentation</span></a></li><li class="col-md-3 col-sm-3 col-xs-6"><a href="https://cocoapods.org/legal">Legal / Conduct</a></li></ul></article></div></section></footer></body></html>

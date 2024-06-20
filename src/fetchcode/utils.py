@@ -14,7 +14,11 @@
 # CONDITIONS OF ANY KIND, either express or implied. See tshe License for the
 # specific language governing permissions and limitations under the License.
 
+import hashlib
 import os
+import sys
+from functools import partial
+
 import requests
 from dateutil import parser as dateparser
 from dateutil.parser import ParserError
@@ -166,11 +170,76 @@ def get_github_rest(url):
 
 
 def get_response(url, headers=None):
-    """
-    Generate `Package` object for a `url` string
-    """
     resp = requests.get(url, headers=headers)
     if resp.status_code == 200:
         return resp.json()
 
     raise Exception(f"Failed to fetch: {url}")
+
+
+def get_text_response(url, headers=None):
+    resp = requests.get(url, headers=headers)
+    if resp.status_code == 200:
+        return resp.text
+
+    raise Exception(f"Failed to fetch: {url}")
+
+
+def make_head_request(url, headers=None):
+    try:
+        resp = requests.head(url, headers=headers)
+        return resp
+    except:
+        raise Exception(f"Failed to fetch: {url}")
+
+
+def get_hashed_path(name):
+    """
+    Returns a string with a part of the file path derived from the md5 hash.
+
+    From https://github.com/CocoaPods/cdn.cocoapods.org:
+        "There are a set of known prefixes for all Podspec paths, you take the
+        name of the pod, create a hash (using md5) of it and take the first
+        three characters."
+
+    """
+    if not name:
+        return
+    podname = get_podname_proper(name)
+    if name != podname:
+        name_to_hash = podname
+    else:
+        name_to_hash = name
+
+    hash_init = get_first_three_md5_hash_characters(name_to_hash)
+    hashed_path = "/".join(list(hash_init))
+
+    return hashed_path
+
+
+# for FIPS support
+sys_v0 = sys.version_info[0]
+sys_v1 = sys.version_info[1]
+if sys_v0 == 3 and sys_v1 >= 9:
+    md5_hasher = partial(hashlib.md5, usedforsecurity=False)
+else:
+    md5_hasher = hashlib.md5
+
+
+def get_podname_proper(podname):
+    """
+    Podnames in cocoapods sometimes are files inside a pods package (like 'OHHTTPStubs/Default')
+    This returns proper podname in those cases.
+    """
+    if "/" in podname:
+        return podname.split("/")[0]
+    return podname
+
+
+def get_first_three_md5_hash_characters(podname):
+    """
+    From https://github.com/CocoaPods/cdn.cocoapods.org:
+    "There are a set of known prefixes for all Podspec paths, you take the name of the pod,
+    create a hash (using md5) of it and take the first three characters."
+    """
+    return md5_hasher(podname.encode("utf-8")).hexdigest()[0:3]
